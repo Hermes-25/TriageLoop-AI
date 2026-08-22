@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://triageloop.local/contracts/queue-snapshot.schema.json",
+  "title": "TriageLoop Queue Snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["simulation_version", "as_of_minute", "policy", "items"],
+  "properties": {
+    "simulation_version": { "const": "1.0.0" },
+    "as_of_minute": { "type": "number", "minimum": 0 },
+    "policy": { "type": "string", "enum": ["fifo", "static", "triageloop"] },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["task_id", "patient_template_id", "predicted_time_to_action_minutes", "action_deadline_minute", "clinical_slack_minutes", "capacity_conflict", "static_level", "risk_30m", "uncertain"],
+        "properties": {
+          "task_id": { "type": "string" },
+          "patient_template_id": { "type": "string" },
+          "predicted_time_to_action_minutes": { "type": "number", "minimum": 0 },
+          "action_deadline_minute": { "type": "number", "minimum": 0 },
+          "clinical_slack_minutes": { "type": "number" },
+          "capacity_conflict": { "type": "boolean" },
+          "static_level": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "risk_30m": { "type": "number", "minimum": 0, "maximum": 1 },
+          "uncertain": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

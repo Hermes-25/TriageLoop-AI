@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-08-22T15:33:17.454Z",
+  "base_url": "http://localhost:3000",
+  "api_url": "http://127.0.0.1:8000",
+  "health": {
+    "status": "ok",
+    "mode": "synthetic-prototype",
+    "version": "0.4.0"
+  },
+  "journey": [
+    "reset",
+    "baseline board",
+    "deterioration and negative Slack",
+    "NBO fallback boundary",
+    "3x surge capacity conflict",
+    "reasoned clinician override",
+    "recomputed audit chain",
+    "evaluation evidence",
+    "capacity truth"
+  ],
+  "screenshots": [
+    "01-baseline.png",
+    "02-deterioration.png",
+    "03-nbo-boundary.png",
+    "04-surge.png",
+    "05-override-mid-flow.png",
+    "06-audit.png",
+    "07-evidence.png",
+    "08-capacity.png"
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "passed": true
+}

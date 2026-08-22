@@ -1,0 +1,33 @@
+name: Research or safety change
+description: Propose a change to model, rules, uncertainty, queue policy or reported evidence.
+title: "[Research]: "
+labels: [research]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research or safety question
+      description: State the question before proposing implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and references
+      description: Link primary sources and identify whether evidence is clinical, operational or synthetic.
+    validations:
+      required: true
+  - type: textarea
+    id: invariants
+    attributes:
+      label: Safety invariants affected
+      description: Explain effects on red flags, Safe Mode, no-autonomous-downgrade, clinician authority and audit.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Proposed validation
+      description: Define comparators, endpoints, gates and failure behavior.
+    validations:
+      required: true

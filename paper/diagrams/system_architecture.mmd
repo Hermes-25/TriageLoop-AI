@@ -1,0 +1,19 @@
+flowchart LR
+  subgraph Clinical[Clinical state]
+    A[Repeated observations] --> B[Quality and provenance]
+    B --> C[Age-aware safety rules]
+    C --> D[Calibrated trajectory risk]
+    D --> E[Conformal and OOD shell]
+  end
+  E --> F[Dynamic Action Window]
+  F --> G[Queue Twin projected ETA]
+  G --> H[Clinical Slack]
+  H --> I[Deadline Board]
+  I --> J{Clinician decision}
+  J --> K[Hash-linked audit]
+  K --> A
+  C -. hard red flag .-> J
+  E -. uncertainty or invalid data .-> L[Safe Mode]
+  L --> J
+  G -. unavailable .-> M[Feasibility unknown; clinical need preserved]
+

@@ -1,0 +1,34 @@
+flowchart TD
+    A["1. Event trigger<br/>arrival · new observation · elapsed-wait threshold · capacity change"]
+    B["2. Contract, provenance and quality<br/>freshness · completeness · reliability · plausibility · synthetic-only boundary"]
+    C["3A. Age-aware safety gate<br/>hard red flags and category limits cannot be suppressed"]
+    D["3B. Trajectory-risk engine<br/>calibrated 5 / 15 / 30 / 60-minute hazards"]
+    E["4. Uncertainty safety shell<br/>Mondrian conformal set + OOD checks"]
+    SM["SAFE MODE<br/>preserve or raise"]
+    F["5. Dynamic Action Window<br/>earliest conservative bound"]
+    G["6. Queue Twin + Clinical Slack<br/>Slack = Action Window - projected ETA"]
+    ETA["ETA UNKNOWN<br/>need stays visible"]
+    H["7. Deadline Board + clinician decision<br/>accept · modify · override with reason"]
+    I["8. Hash-linked audit + continuous loop<br/>recommendation · versions · action · reason · lineage"]
+    AF["AUDIT FAIL<br/>block state change"]
+
+    A --> B
+    B --> C
+    B --> D
+    C --> E
+    D --> E
+    E -->|uncertain or OOD| SM
+    E --> F
+    F --> G
+    G -->|capacity estimate unavailable| ETA
+    G --> H
+    H --> I
+    I -. continuous monitoring .-> A
+    I -->|chain verification fails| AF
+
+    classDef core fill:#fbf9fc,stroke:#d9d1dc,color:#2e2933,stroke-width:1px;
+    classDef safety fill:#fff0ec,stroke:#c63d2b,color:#9f2e20,stroke-width:2px;
+    classDef uncertainty fill:#fff8e8,stroke:#c97b00,color:#9b5e00,stroke-width:2px;
+    class A,B,C,D,E,F,G,H,I core;
+    class SM,AF safety;
+    class ETA uncertainty;

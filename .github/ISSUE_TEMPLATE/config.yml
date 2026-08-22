@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security or privacy report
+    url: https://github.com/Hermes-25/TriageLoop-AI/security/policy
+    about: Report vulnerabilities or sensitive information privately; never put them in a public issue.

@@ -1,0 +1,153 @@
+{
+  "evaluation_version": "1.0.0",
+  "source": {
+    "name": "MIMIC-IV Clinical Database Demo",
+    "version": "2.2",
+    "doi": "10.13026/dp1f-ex47",
+    "url": "https://physionet.org/content/mimic-iv-demo/2.2/",
+    "population": "Open 100-patient deidentified hospital/ICU demo; not an emergency-department cohort.",
+    "chartevents_sha256": "90f096ad3db847ed1aaec073f8d86053c51fea7b616d3b046410e030f083d560",
+    "d_items_sha256": "1690467a822345226a041c1149237c418aa60098c6b699fb4cef64d73588a01f"
+  },
+  "fields": {
+    "diastolic_bp_mmhg": {
+      "mimic_demo": {
+        "count": 8349,
+        "minimum": 18.0,
+        "p01": 32.0,
+        "median": 62.0,
+        "p99": 109.0,
+        "maximum": 162.0
+      },
+      "synthetic": {
+        "count": 30020,
+        "minimum": 33.2,
+        "p01": 52.6,
+        "median": 74.7,
+        "p99": 88.6,
+        "maximum": 98.6
+      },
+      "external_within_prototype_hard_range": 1.0,
+      "external_median_within_synthetic_p01_p99": true
+    },
+    "heart_rate_bpm": {
+      "mimic_demo": {
+        "count": 13913,
+        "minimum": 0.0,
+        "p01": 51.0,
+        "median": 90.0,
+        "p99": 138.0,
+        "maximum": 200.0
+      },
+      "synthetic": {
+        "count": 30020,
+        "minimum": 42.0,
+        "p01": 59.8,
+        "median": 80.6,
+        "p99": 132.4,
+        "maximum": 420.0
+      },
+      "external_within_prototype_hard_range": 0.9997843743261697,
+      "external_median_within_synthetic_p01_p99": true
+    },
+    "respiratory_rate_per_min": {
+      "mimic_demo": {
+        "count": 15244,
+        "minimum": 0.0,
+        "p01": 9.0,
+        "median": 20.0,
+        "p99": 36.0,
+        "maximum": 58.0
+      },
+      "synthetic": {
+        "count": 30020,
+        "minimum": 5.2,
+        "p01": 10.6,
+        "median": 17.1,
+        "p99": 32.58100000000013,
+        "maximum": 50.5
+      },
+      "external_within_prototype_hard_range": 0.9968512201521911,
+      "external_median_within_synthetic_p01_p99": true
+    },
+    "spo2_percent": {
+      "mimic_demo": {
+        "count": 13540,
+        "minimum": 29.0,
+        "p01": 89.0,
+        "median": 97.0,
+        "p99": 100.0,
+        "maximum": 100.0
+      },
+      "synthetic": {
+        "count": 29518,
+        "minimum": 81.4,
+        "p01": 87.5,
+        "median": 97.5,
+        "p99": 100.0,
+        "maximum": 100.0
+      },
+      "external_within_prototype_hard_range": 0.9999261447562777,
+      "external_median_within_synthetic_p01_p99": true
+    },
+    "systolic_bp_mmhg": {
+      "mimic_demo": {
+        "count": 8347,
+        "minimum": 46.0,
+        "p01": 72.0,
+        "median": 113.0,
+        "p99": 174.0,
+        "maximum": 215.0
+      },
+      "synthetic": {
+        "count": 29438,
+        "minimum": 40.0,
+        "p01": 78.3,
+        "median": 120.8,
+        "p99": 145.6,
+        "maximum": 163.3
+      },
+      "external_within_prototype_hard_range": 1.0,
+      "external_median_within_synthetic_p01_p99": true
+    },
+    "temperature_c": {
+      "mimic_demo": {
+        "count": 3770,
+        "minimum": 31.1,
+        "p01": 35.2,
+        "median": 36.888888888888886,
+        "p99": 39.166666666666664,
+        "maximum": 99.0
+      },
+      "synthetic": {
+        "count": 29487,
+        "minimum": 34.7,
+        "p01": 35.8,
+        "median": 37.0,
+        "p99": 38.4,
+        "maximum": 39.8
+      },
+      "external_within_prototype_hard_range": 0.9992042440318303,
+      "external_median_within_synthetic_p01_p99": true
+    }
+  },
+  "coverage": {
+    "mapped_fields": 6,
+    "mapped_core_fields": 5,
+    "external_measurements": 63163
+  },
+  "plausibility_checks": {
+    "all_five_core_vital_fields_present": true,
+    "at_least_95pct_within_hard_ranges_each_field": true,
+    "all_external_medians_inside_synthetic_p01_p99": true
+  },
+  "interpretation": "This checks whether the synthetic input scale is grossly disconnected from an open real-world reference. It does not evaluate ED labels, calibration, deterioration prediction, Action Windows, queue outcomes or clinical validity.",
+  "limitations": [
+    "The open demo is a small adult hospital/ICU subset, not MIMIC-IV-ED.",
+    "Repeated chart measurements are not independent patient observations.",
+    "No model-performance metric is computed on this source.",
+    "Paediatric and emergency-department transfer remain untested externally."
+  ],
+  "externally_sourced_deidentified_data": true,
+  "not_clinical_validation": true
+}

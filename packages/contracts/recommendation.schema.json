@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://triageloop.local/contracts/recommendation.schema.json",
+  "title": "TriageLoop Recommendation Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "recommendation_id",
+    "patient_id",
+    "generated_at",
+    "recommended_action",
+    "action_window",
+    "risk_by_horizon",
+    "uncertainty",
+    "safety",
+    "explanation",
+    "component_versions"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "recommendation_id": { "type": "string", "minLength": 1 },
+    "patient_id": { "type": "string", "pattern": "^P-[0-9]{3,6}$" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "recommended_action": {
+      "type": "string",
+      "enum": ["immediate_review", "reassess", "escalate_priority", "continue_monitored_wait", "safe_mode_review"]
+    },
+    "action_window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minimum_minutes", "maximum_minutes", "basis"],
+      "properties": {
+        "minimum_minutes": { "type": "number", "minimum": 0 },
+        "maximum_minutes": { "type": "number", "minimum": 0 },
+        "basis": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["hard_rule", "category_bound", "calibrated_hazard", "safe_mode"] },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      }
+    },
+    "predicted_time_to_action_minutes": { "type": ["number", "null"], "minimum": 0 },
+    "clinical_slack_minutes": { "type": ["number", "null"] },
+    "capacity_conflict": { "type": "boolean" },
+    "risk_by_horizon": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["5", "15", "30", "60"],
+      "properties": {
+        "5": { "type": "number", "minimum": 0, "maximum": 1 },
+        "15": { "type": "number", "minimum": 0, "maximum": 1 },
+        "30": { "type": "number", "minimum": 0, "maximum": 1 },
+        "60": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "uncertainty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "prediction_set", "abstained"],
+      "properties": {
+        "state": { "type": "string", "enum": ["low", "moderate", "high", "unavailable"] },
+        "prediction_set": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["critical", "non_critical"] },
+          "uniqueItems": true
+        },
+        "abstained": { "type": "boolean" },
+        "ood": { "type": "boolean" },
+        "data_quality_score": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["safe_mode", "rule_hits", "autonomous_downgrade_permitted"],
+      "properties": {
+        "safe_mode": { "type": "boolean" },
+        "safe_mode_reasons": { "type": "array", "items": { "type": "string" } },
+        "rule_hits": { "type": "array", "items": { "type": "string" } },
+        "autonomous_downgrade_permitted": { "const": false }
+      }
+    },
+    "next_best_observation": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "observation_code": { "type": "string" },
+        "label": { "type": "string" },
+        "recommended_within_minutes": { "type": "number", "minimum": 0 },
+        "expected_decision_value": { "type": "number", "minimum": 0, "maximum": 1 },
+        "burden": { "type": "string", "enum": ["low", "moderate", "high"] }
+      },
+      "required": ["observation_code", "label", "recommended_within_minutes", "expected_decision_value", "burden"]
+    },
+    "explanation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "what_changed", "top_factors"],
+      "properties": {
+        "summary": { "type": "string" },
+        "what_changed": { "type": "array", "items": { "type": "string" } },
+        "top_factors": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "component_versions": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    }
+  }
+}

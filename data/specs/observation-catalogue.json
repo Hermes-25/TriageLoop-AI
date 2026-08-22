@@ -1,0 +1,16 @@
+{
+  "catalogue_version": "1.0.0",
+  "status": "bounded prototype catalogue pending licensed-clinician validation",
+  "items": [
+    {"code": "repeat_spo2", "label": "Repeat SpO2", "burden": "low", "typical_seconds": 45},
+    {"code": "repeat_respiratory_rate", "label": "Repeat respiratory rate", "burden": "low", "typical_seconds": 60},
+    {"code": "repeat_heart_rate", "label": "Repeat heart rate", "burden": "low", "typical_seconds": 45},
+    {"code": "repeat_blood_pressure", "label": "Repeat blood pressure", "burden": "low", "typical_seconds": 90},
+    {"code": "repeat_temperature", "label": "Repeat temperature", "burden": "low", "typical_seconds": 60},
+    {"code": "repeat_mental_status", "label": "Repeat mental-status/GCS check", "burden": "low", "typical_seconds": 90},
+    {"code": "repeat_pain", "label": "Repeat pain assessment", "burden": "low", "typical_seconds": 45},
+    {"code": "clarify_symptom_onset", "label": "Clarify symptom onset and progression", "burden": "low", "typical_seconds": 90}
+  ],
+  "excluded_actions": ["medication", "laboratory order", "imaging order", "diagnosis", "discharge"],
+  "notice": "The catalogue ranks observations only; it does not autonomously order tests or treatment."
+}

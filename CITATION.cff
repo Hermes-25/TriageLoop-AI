@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this prototype or its evaluation design, please cite the repository and technical working paper."
+title: "TriageLoop.ai: Deadline-Aware Emergency Department Triage Under Uncertainty"
+type: software
+authors:
+  - name: "TriageLoop.ai project team"
+version: 0.4.0
+date-released: 2026-08-22
+repository-code: "https://github.com/Hermes-25/TriageLoop-AI"
+url: "https://triageloop-ai.vercel.app/board"
+license: Apache-2.0
+keywords:
+  - emergency-department
+  - clinical-decision-support
+  - machine-learning
+  - conformal-prediction
+  - queue-simulation
+  - patient-triage

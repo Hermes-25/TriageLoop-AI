@@ -1,0 +1,1882 @@
+[
+  {
+    "scenario_id": "silent-hypoxia",
+    "title": "Silent Hypoxia",
+    "tags": [
+      "ambiguous",
+      "hard_red_flag"
+    ],
+    "evaluated_at": "2026-01-01T09:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0001",
+      "arrival_time": "2026-01-01T09:00:00Z",
+      "age_years": 48.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "shortness of breath",
+      "reported_symptoms": [
+        "shortness of breath"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-01-1",
+          "recorded_at": "2026-01-01T09:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 88.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "silent-hypoxia"
+      }
+    }
+  },
+  {
+    "scenario_id": "subtle-chest-pain",
+    "title": "Subtle Chest Pain",
+    "tags": [
+      "ambiguous"
+    ],
+    "evaluated_at": "2026-01-01T10:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0002",
+      "arrival_time": "2026-01-01T10:00:00Z",
+      "age_years": 54.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "mild chest discomfort",
+      "reported_symptoms": [
+        "mild chest discomfort"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-02-1",
+          "recorded_at": "2026-01-01T10:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "subtle-chest-pain"
+      }
+    }
+  },
+  {
+    "scenario_id": "pediatric-fever-tachycardia",
+    "title": "Pediatric Fever Tachycardia",
+    "tags": [
+      "pediatric",
+      "hard_red_flag"
+    ],
+    "evaluated_at": "2026-01-01T11:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0003",
+      "arrival_time": "2026-01-01T11:00:00Z",
+      "age_years": 5.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "fever",
+      "reported_symptoms": [
+        "fever"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-03-1",
+          "recorded_at": "2026-01-01T11:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 166.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 39.5,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "pediatric-fever-tachycardia"
+      }
+    }
+  },
+  {
+    "scenario_id": "infant-dehydration",
+    "title": "Infant Dehydration",
+    "tags": [
+      "pediatric",
+      "hard_red_flag"
+    ],
+    "evaluated_at": "2026-01-01T12:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0004",
+      "arrival_time": "2026-01-01T12:00:00Z",
+      "age_years": 0.7,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "vomiting and poor intake",
+      "reported_symptoms": [
+        "vomiting and poor intake"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-04-1",
+          "recorded_at": "2026-01-01T12:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 65.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "infant-dehydration"
+      }
+    }
+  },
+  {
+    "scenario_id": "geriatric-confusion",
+    "title": "Geriatric Confusion",
+    "tags": [
+      "geriatric",
+      "under_reported"
+    ],
+    "evaluated_at": "2026-01-01T13:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0005",
+      "arrival_time": "2026-01-01T13:00:00Z",
+      "age_years": 81.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "weakness",
+      "reported_symptoms": [],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [
+          "hypertension"
+        ],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-05-1",
+          "recorded_at": "2026-01-01T13:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 14.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "confused"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "geriatric-confusion"
+      }
+    }
+  },
+  {
+    "scenario_id": "frail-fall",
+    "title": "Frail Fall",
+    "tags": [
+      "geriatric",
+      "frailty"
+    ],
+    "evaluated_at": "2026-01-01T14:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0006",
+      "arrival_time": "2026-01-01T14:00:00Z",
+      "age_years": 88.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "minor fall",
+      "reported_symptoms": [
+        "minor fall"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [
+          "hypertension"
+        ],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": 8
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-06-1",
+          "recorded_at": "2026-01-01T14:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "frail-fall"
+      }
+    }
+  },
+  {
+    "scenario_id": "no-record-chest-pain",
+    "title": "No Record Chest Pain",
+    "tags": [
+      "zero_history",
+      "ambiguous"
+    ],
+    "evaluated_at": "2026-01-01T15:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0007",
+      "arrival_time": "2026-01-01T15:00:00Z",
+      "age_years": 45.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "chest pain",
+      "reported_symptoms": [
+        "chest pain"
+      ],
+      "observed_cues": [],
+      "history_status": "none",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-07-1",
+          "recorded_at": "2026-01-01T15:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "no-record-chest-pain"
+      }
+    }
+  },
+  {
+    "scenario_id": "underreported-stroke",
+    "title": "Underreported Stroke",
+    "tags": [
+      "under_reported",
+      "hard_red_flag"
+    ],
+    "evaluated_at": "2026-01-01T16:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0008",
+      "arrival_time": "2026-01-01T16:00:00Z",
+      "age_years": 63.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "feels odd",
+      "reported_symptoms": [],
+      "observed_cues": [
+        "stroke signs observed by nurse"
+      ],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-08-1",
+          "recorded_at": "2026-01-01T16:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "underreported-stroke"
+      }
+    }
+  },
+  {
+    "scenario_id": "worsening-respiration",
+    "title": "Worsening Respiration",
+    "tags": [
+      "worsening_waiting"
+    ],
+    "evaluated_at": "2026-01-01T17:25:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0009",
+      "arrival_time": "2026-01-01T17:00:00Z",
+      "age_years": 39.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "cough",
+      "reported_symptoms": [
+        "cough"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-09-1",
+          "recorded_at": "2026-01-01T17:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 1.0,
+            "flags": []
+          }
+        },
+        {
+          "observation_id": "CUR-09-2",
+          "recorded_at": "2026-01-01T17:25:00Z",
+          "source": "reassessment",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 30.0,
+            "spo2_percent": 93.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "worsening-respiration"
+      }
+    }
+  },
+  {
+    "scenario_id": "falling-pressure",
+    "title": "Falling Pressure",
+    "tags": [
+      "geriatric",
+      "worsening_waiting"
+    ],
+    "evaluated_at": "2026-01-01T18:25:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0010",
+      "arrival_time": "2026-01-01T18:00:00Z",
+      "age_years": 67.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "weakness",
+      "reported_symptoms": [
+        "weakness"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [
+          "hypertension"
+        ],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-10-1",
+          "recorded_at": "2026-01-01T18:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 1.0,
+            "flags": []
+          }
+        },
+        {
+          "observation_id": "CUR-10-2",
+          "recorded_at": "2026-01-01T18:25:00Z",
+          "source": "reassessment",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 94.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "falling-pressure"
+      }
+    }
+  },
+  {
+    "scenario_id": "declining-consciousness",
+    "title": "Declining Consciousness",
+    "tags": [
+      "worsening_waiting"
+    ],
+    "evaluated_at": "2026-01-01T19:25:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0011",
+      "arrival_time": "2026-01-01T19:00:00Z",
+      "age_years": 32.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "headache",
+      "reported_symptoms": [
+        "headache"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-11-1",
+          "recorded_at": "2026-01-01T19:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 1.0,
+            "flags": []
+          }
+        },
+        {
+          "observation_id": "CUR-11-2",
+          "recorded_at": "2026-01-01T19:25:00Z",
+          "source": "reassessment",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 12.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "declining-consciousness"
+      }
+    }
+  },
+  {
+    "scenario_id": "wait-threshold-breach",
+    "title": "Wait Threshold Breach",
+    "tags": [
+      "wait_threshold"
+    ],
+    "evaluated_at": "2026-01-01T21:05:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0012",
+      "arrival_time": "2026-01-01T20:00:00Z",
+      "age_years": 26.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "abdominal pain",
+      "reported_symptoms": [
+        "abdominal pain"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-12-1",
+          "recorded_at": "2026-01-01T20:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 4,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "wait-threshold-breach"
+      }
+    }
+  },
+  {
+    "scenario_id": "missing-spo2",
+    "title": "Missing Spo2",
+    "tags": [
+      "missing",
+      "geriatric"
+    ],
+    "evaluated_at": "2026-01-01T21:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0013",
+      "arrival_time": "2026-01-01T21:00:00Z",
+      "age_years": 72.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "shortness of breath",
+      "reported_symptoms": [
+        "shortness of breath"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [
+          "hypertension"
+        ],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-13-1",
+          "recorded_at": "2026-01-01T21:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": null,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.7,
+            "flags": [
+              "missing"
+            ]
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "missing-spo2"
+      }
+    }
+  },
+  {
+    "scenario_id": "missing-pressure",
+    "title": "Missing Pressure",
+    "tags": [
+      "missing"
+    ],
+    "evaluated_at": "2026-01-01T22:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0014",
+      "arrival_time": "2026-01-01T22:00:00Z",
+      "age_years": 17.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "dizziness",
+      "reported_symptoms": [
+        "dizziness"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-14-1",
+          "recorded_at": "2026-01-01T22:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": null,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.7,
+            "flags": [
+              "missing"
+            ]
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "missing-pressure"
+      }
+    }
+  },
+  {
+    "scenario_id": "inverted-pressure",
+    "title": "Inverted Pressure",
+    "tags": [
+      "implausible"
+    ],
+    "evaluated_at": "2026-01-01T23:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0015",
+      "arrival_time": "2026-01-01T23:00:00Z",
+      "age_years": 56.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "weakness",
+      "reported_symptoms": [
+        "weakness"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-15-1",
+          "recorded_at": "2026-01-01T23:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 80.0,
+            "diastolic_bp_mmhg": 95.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.7,
+            "flags": [
+              "implausible"
+            ]
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "inverted-pressure"
+      }
+    }
+  },
+  {
+    "scenario_id": "impossible-heart-rate",
+    "title": "Impossible Heart Rate",
+    "tags": [
+      "implausible"
+    ],
+    "evaluated_at": "2026-01-02T00:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0016",
+      "arrival_time": "2026-01-02T00:00:00Z",
+      "age_years": 41.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "palpitations",
+      "reported_symptoms": [
+        "palpitations"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-16-1",
+          "recorded_at": "2026-01-02T00:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 420.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.7,
+            "flags": [
+              "implausible"
+            ]
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "impossible-heart-rate"
+      }
+    }
+  },
+  {
+    "scenario_id": "stale-observation",
+    "title": "Stale Observation",
+    "tags": [
+      "stale",
+      "geriatric"
+    ],
+    "evaluated_at": "2026-01-02T01:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0017",
+      "arrival_time": "2026-01-02T00:20:00Z",
+      "age_years": 69.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "fever",
+      "reported_symptoms": [
+        "fever"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [
+          "hypertension"
+        ],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-17-1",
+          "recorded_at": "2026-01-02T00:20:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "stale-observation"
+      }
+    }
+  },
+  {
+    "scenario_id": "device-warning",
+    "title": "Device Warning",
+    "tags": [
+      "device_warning"
+    ],
+    "evaluated_at": "2026-01-02T02:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0018",
+      "arrival_time": "2026-01-02T02:00:00Z",
+      "age_years": 50.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "shortness of breath",
+      "reported_symptoms": [
+        "shortness of breath"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-18-1",
+          "recorded_at": "2026-01-02T02:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.7,
+            "flags": [
+              "device_warning"
+            ]
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "device-warning"
+      }
+    }
+  },
+  {
+    "scenario_id": "pregnancy-abdominal-pain",
+    "title": "Pregnancy Abdominal Pain",
+    "tags": [
+      "pregnancy",
+      "ambiguous"
+    ],
+    "evaluated_at": "2026-01-02T03:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0019",
+      "arrival_time": "2026-01-02T03:00:00Z",
+      "age_years": 30.0,
+      "sex_at_birth": "female",
+      "pregnancy_status": "pregnant",
+      "chief_complaint": "abdominal pain in pregnancy",
+      "reported_symptoms": [
+        "abdominal pain in pregnancy"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-19-1",
+          "recorded_at": "2026-01-02T03:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "pregnancy-abdominal-pain"
+      }
+    }
+  },
+  {
+    "scenario_id": "severe-pain",
+    "title": "Severe Pain",
+    "tags": [
+      "urgent"
+    ],
+    "evaluated_at": "2026-01-02T04:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0020",
+      "arrival_time": "2026-01-02T04:00:00Z",
+      "age_years": 36.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "severe abdominal pain",
+      "reported_symptoms": [
+        "severe abdominal pain"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-20-1",
+          "recorded_at": "2026-01-02T04:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 9.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "severe-pain"
+      }
+    }
+  },
+  {
+    "scenario_id": "stable-low-acuity",
+    "title": "Stable Low Acuity",
+    "tags": [
+      "stable"
+    ],
+    "evaluated_at": "2026-01-02T05:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0021",
+      "arrival_time": "2026-01-02T05:00:00Z",
+      "age_years": 22.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "minor ankle pain",
+      "reported_symptoms": [
+        "minor ankle pain"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-21-1",
+          "recorded_at": "2026-01-02T05:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 2.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 5,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "stable-low-acuity"
+      }
+    }
+  },
+  {
+    "scenario_id": "improving-after-rest",
+    "title": "Improving After Rest",
+    "tags": [
+      "improving",
+      "clinician_override_candidate"
+    ],
+    "evaluated_at": "2026-01-02T06:25:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0022",
+      "arrival_time": "2026-01-02T06:00:00Z",
+      "age_years": 60.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "dizziness improving",
+      "reported_symptoms": [
+        "dizziness improving"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-22-1",
+          "recorded_at": "2026-01-02T06:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 1.0,
+            "flags": []
+          }
+        },
+        {
+          "observation_id": "CUR-22-2",
+          "recorded_at": "2026-01-02T06:25:00Z",
+          "source": "reassessment",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "improving-after-rest"
+      }
+    }
+  },
+  {
+    "scenario_id": "noisy-transient-reading",
+    "title": "Noisy Transient Reading",
+    "tags": [
+      "noisy",
+      "clinician_override_candidate"
+    ],
+    "evaluated_at": "2026-01-02T07:25:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0023",
+      "arrival_time": "2026-01-02T07:00:00Z",
+      "age_years": 47.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "brief dizziness",
+      "reported_symptoms": [
+        "brief dizziness"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-23-1",
+          "recorded_at": "2026-01-02T07:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 1.0,
+            "flags": []
+          }
+        },
+        {
+          "observation_id": "CUR-23-2",
+          "recorded_at": "2026-01-02T07:25:00Z",
+          "source": "reassessment",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.75,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "noisy-transient-reading"
+      }
+    }
+  },
+  {
+    "scenario_id": "unresponsive-adult",
+    "title": "Unresponsive Adult",
+    "tags": [
+      "hard_red_flag"
+    ],
+    "evaluated_at": "2026-01-02T08:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0024",
+      "arrival_time": "2026-01-02T08:00:00Z",
+      "age_years": 44.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "collapse",
+      "reported_symptoms": [
+        "collapse"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-24-1",
+          "recorded_at": "2026-01-02T08:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 6.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "unresponsive"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "unresponsive-adult"
+      }
+    }
+  },
+  {
+    "scenario_id": "active-bleeding",
+    "title": "Active Bleeding",
+    "tags": [
+      "hard_red_flag"
+    ],
+    "evaluated_at": "2026-01-02T09:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0025",
+      "arrival_time": "2026-01-02T09:00:00Z",
+      "age_years": 28.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "laceration",
+      "reported_symptoms": [
+        "laceration"
+      ],
+      "observed_cues": [
+        "uncontrolled bleeding"
+      ],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-25-1",
+          "recorded_at": "2026-01-02T09:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "active-bleeding"
+      }
+    }
+  },
+  {
+    "scenario_id": "possible-sepsis",
+    "title": "Possible Sepsis",
+    "tags": [
+      "geriatric",
+      "urgent"
+    ],
+    "evaluated_at": "2026-01-02T10:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0026",
+      "arrival_time": "2026-01-02T10:00:00Z",
+      "age_years": 74.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "fever and confusion",
+      "reported_symptoms": [
+        "fever and confusion"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [
+          "hypertension"
+        ],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-26-1",
+          "recorded_at": "2026-01-02T10:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 40.1,
+            "gcs": 14.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "confused"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "possible-sepsis"
+      }
+    }
+  },
+  {
+    "scenario_id": "pediatric-stridor",
+    "title": "Pediatric Stridor",
+    "tags": [
+      "pediatric",
+      "hard_red_flag"
+    ],
+    "evaluated_at": "2026-01-02T11:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0027",
+      "arrival_time": "2026-01-02T11:00:00Z",
+      "age_years": 3.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "noisy breathing",
+      "reported_symptoms": [
+        "noisy breathing"
+      ],
+      "observed_cues": [
+        "stridor"
+      ],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-27-1",
+          "recorded_at": "2026-01-02T11:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 18.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "pediatric-stridor"
+      }
+    }
+  },
+  {
+    "scenario_id": "adult-bradypnea",
+    "title": "Adult Bradypnea",
+    "tags": [
+      "hard_red_flag"
+    ],
+    "evaluated_at": "2026-01-02T12:00:00+00:00",
+    "patient": {
+      "schema_version": "1.0.0",
+      "patient_id": "P-0028",
+      "arrival_time": "2026-01-02T12:00:00Z",
+      "age_years": 59.0,
+      "sex_at_birth": "male",
+      "pregnancy_status": null,
+      "chief_complaint": "drowsiness",
+      "reported_symptoms": [
+        "drowsiness"
+      ],
+      "observed_cues": [],
+      "history_status": "available",
+      "history": {
+        "conditions": [],
+        "medications": [],
+        "allergies": [],
+        "frailty_score": null
+      },
+      "observations": [
+        {
+          "observation_id": "CUR-28-1",
+          "recorded_at": "2026-01-02T12:00:00Z",
+          "source": "triage",
+          "values": {
+            "heart_rate_bpm": 88.0,
+            "respiratory_rate_per_min": 6.0,
+            "spo2_percent": 98.0,
+            "systolic_bp_mmhg": 122.0,
+            "diastolic_bp_mmhg": 78.0,
+            "temperature_c": 37.0,
+            "gcs": 15.0,
+            "pain_score_0_10": 4.0,
+            "mental_status": "alert"
+          },
+          "quality": {
+            "completeness": 1.0,
+            "reliability": 0.95,
+            "flags": []
+          }
+        }
+      ],
+      "clinician_state": {
+        "assigned_level": 3,
+        "status": "waiting",
+        "assigned_by_role": "system_fixture"
+      },
+      "provenance": {
+        "source": "scripted_fixture",
+        "synthetic": true,
+        "generator_version": null,
+        "scenario_id": "adult-bradypnea"
+      }
+    }
+  }
+]

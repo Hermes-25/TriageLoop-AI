@@ -1,0 +1,56 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.egg-info/
+
+# LaTeX build intermediates (the release PDF remains versioned)
+*.aux
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+
+# Generated data and models
+data/generated/
+data/external/mimic-iv-demo-2.2/**/*.csv.gz
+artifacts/reports/
+artifacts/release/**/*.png
+submission/video/raw/
+
+# Local state
+*.db
+*.sqlite
+*.sqlite3
+logs/
+tmp/
+*.inspect.ndjson
+**/AGENTS.md
+**/CLAUDE.md
+
+# Editors / operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

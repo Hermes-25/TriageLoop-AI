@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a reproducible problem in the synthetic prototype.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include patient information, credentials or security-sensitive details."
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Affected surface
+      options:
+        - Deadline Board / patient inspector
+        - FastAPI service
+        - Model or safety logic
+        - Queue Twin / simulation
+        - Audit trail
+        - Docker / local setup
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the observed and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      placeholder: "1. Reset demo\n2. Open ...\n3. Select ..."
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "Docker Desktop 4.x / Windows 11, or browser and version"
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Data-safety confirmation
+      options:
+        - label: This report contains no real patient data, secrets or credentials.
+          required: true

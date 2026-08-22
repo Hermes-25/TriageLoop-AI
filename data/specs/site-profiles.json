@@ -1,0 +1,36 @@
+{
+  "simulation_version": "1.2.0",
+  "shift_minutes": 480,
+  "deterioration_response_minutes": 30,
+  "profiles": {
+    "community": {
+      "visits_per_day": 100,
+      "triage_nurses": 2,
+      "reassessment_nurses": 1,
+      "clinicians": 2,
+      "monitored_spaces": 4,
+      "treatment_spaces": 8
+    },
+    "regional": {
+      "visits_per_day": 300,
+      "triage_nurses": 5,
+      "reassessment_nurses": 3,
+      "clinicians": 6,
+      "monitored_spaces": 12,
+      "treatment_spaces": 24
+    },
+    "urban_trauma": {
+      "visits_per_day": 550,
+      "triage_nurses": 8,
+      "reassessment_nurses": 5,
+      "clinicians": 11,
+      "monitored_spaces": 20,
+      "treatment_spaces": 40
+    }
+  },
+  "load_states": {
+    "baseline": 1.0,
+    "surge_3x": 3.0
+  },
+  "notice": "Synthetic discrete-event simulation configuration only. The 30-minute composite response allowance is an evaluation assumption, not a clinical SLA or staffing recommendation. Hard red flags retain a five-minute prototype response bound."
+}

@@ -1,0 +1,266 @@
+{
+  "evaluation_version": "1.0.0",
+  "eligible_snapshots": 4317,
+  "critical_snapshots": 607,
+  "fixed_bundle": {
+    "observations_per_reassessment": 8,
+    "typical_seconds": 525,
+    "operational_critical_recall": 0.9588138385502472,
+    "risk_threshold_critical_recall": 0.943986820428336,
+    "ambiguity_rate_after_acquisition": 0.17211026175584898
+  },
+  "next_best_observation": {
+    "observations_per_reassessment": 1,
+    "mean_typical_seconds": 46.65045170257123,
+    "operational_critical_recall": 0.8879736408566722,
+    "risk_threshold_critical_recall": 0.8451400329489291,
+    "ambiguity_rate_after_acquisition": 0.32453092425295343,
+    "unavailable_observation_rate": 0.0,
+    "action_agreement_with_fixed_bundle": 0.7912902478573083,
+    "mean_expected_decision_value": 0.7098454945564048
+  },
+  "comparison": {
+    "observation_count_reduction": 0.875,
+    "estimated_measurement_time_reduction": 0.9111419967570071,
+    "operational_recall_difference_nbo_minus_fixed": -0.07084019769357497
+  },
+  "fallback_sensitivity": {
+    "1": {
+      "test": {
+        "fixed_bundle_operational_recall": 0.9346938775510204,
+        "adaptive_operational_recall": 0.8775510204081632,
+        "recall_difference_adaptive_minus_fixed": -0.05714285714285716,
+        "observation_count_reduction": 0.875,
+        "mean_typical_seconds": 46.100337268128165,
+        "passes_recall_boundary": false
+      },
+      "stress": {
+        "fixed_bundle_operational_recall": 0.9751381215469613,
+        "adaptive_operational_recall": 0.8950276243093923,
+        "recall_difference_adaptive_minus_fixed": -0.08011049723756902,
+        "observation_count_reduction": 0.875,
+        "mean_typical_seconds": 49.22924901185771,
+        "passes_recall_boundary": false
+      },
+      "combined": {
+        "fixed_bundle_operational_recall": 0.9588138385502472,
+        "adaptive_operational_recall": 0.8879736408566722,
+        "recall_difference_adaptive_minus_fixed": -0.07084019769357497,
+        "observation_count_reduction": 0.875,
+        "mean_typical_seconds": 46.65045170257123,
+        "passes_recall_boundary": false
+      }
+    },
+    "2": {
+      "test": {
+        "fixed_bundle_operational_recall": 0.9346938775510204,
+        "adaptive_operational_recall": 0.8816326530612245,
+        "recall_difference_adaptive_minus_fixed": -0.05306122448979589,
+        "observation_count_reduction": 0.75,
+        "mean_typical_seconds": 105.57335581787521,
+        "passes_recall_boundary": false
+      },
+      "stress": {
+        "fixed_bundle_operational_recall": 0.9751381215469613,
+        "adaptive_operational_recall": 0.9281767955801105,
+        "recall_difference_adaptive_minus_fixed": -0.046961325966850875,
+        "observation_count_reduction": 0.75,
+        "mean_typical_seconds": 105.96837944664031,
+        "passes_recall_boundary": false
+      },
+      "combined": {
+        "fixed_bundle_operational_recall": 0.9588138385502472,
+        "adaptive_operational_recall": 0.9093904448105437,
+        "recall_difference_adaptive_minus_fixed": -0.0494233937397035,
+        "observation_count_reduction": 0.75,
+        "mean_typical_seconds": 105.64280750521195,
+        "passes_recall_boundary": false
+      }
+    },
+    "3": {
+      "test": {
+        "fixed_bundle_operational_recall": 0.9346938775510204,
+        "adaptive_operational_recall": 0.8857142857142857,
+        "recall_difference_adaptive_minus_fixed": -0.048979591836734726,
+        "observation_count_reduction": 0.625,
+        "mean_typical_seconds": 151.10033726812816,
+        "passes_recall_boundary": false
+      },
+      "stress": {
+        "fixed_bundle_operational_recall": 0.9751381215469613,
+        "adaptive_operational_recall": 0.9392265193370166,
+        "recall_difference_adaptive_minus_fixed": -0.035911602209944715,
+        "observation_count_reduction": 0.625,
+        "mean_typical_seconds": 154.1699604743083,
+        "passes_recall_boundary": false
+      },
+      "combined": {
+        "fixed_bundle_operational_recall": 0.9588138385502472,
+        "adaptive_operational_recall": 0.9176276771004942,
+        "recall_difference_adaptive_minus_fixed": -0.041186161449752956,
+        "observation_count_reduction": 0.625,
+        "mean_typical_seconds": 151.6400277970813,
+        "passes_recall_boundary": false
+      }
+    },
+    "4": {
+      "test": {
+        "fixed_bundle_operational_recall": 0.9346938775510204,
+        "adaptive_operational_recall": 0.9183673469387755,
+        "recall_difference_adaptive_minus_fixed": -0.01632653061224487,
+        "observation_count_reduction": 0.5,
+        "mean_typical_seconds": 239.51939291736932,
+        "passes_recall_boundary": true
+      },
+      "stress": {
+        "fixed_bundle_operational_recall": 0.9751381215469613,
+        "adaptive_operational_recall": 0.9502762430939227,
+        "recall_difference_adaptive_minus_fixed": -0.024861878453038666,
+        "observation_count_reduction": 0.5,
+        "mean_typical_seconds": 238.10276679841897,
+        "passes_recall_boundary": false
+      },
+      "combined": {
+        "fixed_bundle_operational_recall": 0.9588138385502472,
+        "adaptive_operational_recall": 0.9373970345963756,
+        "recall_difference_adaptive_minus_fixed": -0.021416803953871577,
+        "observation_count_reduction": 0.5,
+        "mean_typical_seconds": 239.27032661570536,
+        "passes_recall_boundary": false
+      }
+    },
+    "5": {
+      "test": {
+        "fixed_bundle_operational_recall": 0.9346938775510204,
+        "adaptive_operational_recall": 0.9346938775510204,
+        "recall_difference_adaptive_minus_fixed": 0.0,
+        "observation_count_reduction": 0.375,
+        "mean_typical_seconds": 329.5193929173693,
+        "passes_recall_boundary": true
+      },
+      "stress": {
+        "fixed_bundle_operational_recall": 0.9751381215469613,
+        "adaptive_operational_recall": 0.9668508287292817,
+        "recall_difference_adaptive_minus_fixed": -0.008287292817679592,
+        "observation_count_reduction": 0.375,
+        "mean_typical_seconds": 328.102766798419,
+        "passes_recall_boundary": true
+      },
+      "combined": {
+        "fixed_bundle_operational_recall": 0.9588138385502472,
+        "adaptive_operational_recall": 0.9538714991762768,
+        "recall_difference_adaptive_minus_fixed": -0.0049423393739703725,
+        "observation_count_reduction": 0.375,
+        "mean_typical_seconds": 329.27032661570536,
+        "passes_recall_boundary": true
+      }
+    },
+    "6": {
+      "test": {
+        "fixed_bundle_operational_recall": 0.9346938775510204,
+        "adaptive_operational_recall": 0.9346938775510204,
+        "recall_difference_adaptive_minus_fixed": 0.0,
+        "observation_count_reduction": 0.25,
+        "mean_typical_seconds": 375.24030354131537,
+        "passes_recall_boundary": true
+      },
+      "stress": {
+        "fixed_bundle_operational_recall": 0.9751381215469613,
+        "adaptive_operational_recall": 0.9696132596685083,
+        "recall_difference_adaptive_minus_fixed": -0.0055248618784530246,
+        "observation_count_reduction": 0.25,
+        "mean_typical_seconds": 375.9486166007905,
+        "passes_recall_boundary": true
+      },
+      "combined": {
+        "fixed_bundle_operational_recall": 0.9588138385502472,
+        "adaptive_operational_recall": 0.9555189456342669,
+        "recall_difference_adaptive_minus_fixed": -0.0032948929159802853,
+        "observation_count_reduction": 0.25,
+        "mean_typical_seconds": 375.3648366921473,
+        "passes_recall_boundary": true
+      }
+    }
+  },
+  "adaptive_bundle_fallback": {
+    "selected_observation_count_on_test": 4,
+    "selection_rule": "Smallest 2-6 observation bundle with >=25% count reduction and <=0.02 absolute operational recall loss on test.",
+    "stress_confirmation_passed": false,
+    "status": "not_qualified"
+  },
+  "release_decision": {
+    "status": "failed_safety_gate",
+    "permitted_product_role": "first measurement suggestion only",
+    "prohibited_claim": "NBO replaces full reassessment or preserves critical recall",
+    "safe_fallback": "Complete the full reassessment bundle or escalate whenever the observation is unavailable, uncertainty persists, or clinical concern remains."
+  },
+  "gates": {
+    "at_least_25pct_fewer_observations": true,
+    "no_material_operational_recall_loss": false
+  },
+  "material_recall_loss_definition": "No more than 0.02 absolute operational critical-recall loss versus the fixed eight-observation bundle; fixed before running this evaluation.",
+  "subgroups": {
+    "split": {
+      "stress": {
+        "eligible_snapshots": 759,
+        "critical_snapshots": 362,
+        "fixed_bundle_operational_recall": 0.9751381215469613,
+        "nbo_operational_recall": 0.8950276243093923
+      },
+      "test": {
+        "eligible_snapshots": 3558,
+        "critical_snapshots": 245,
+        "fixed_bundle_operational_recall": 0.9346938775510204,
+        "nbo_operational_recall": 0.8775510204081632
+      }
+    },
+    "age_group": {
+      "adult": {
+        "eligible_snapshots": 2681,
+        "critical_snapshots": 353,
+        "fixed_bundle_operational_recall": 0.9546742209631728,
+        "nbo_operational_recall": 0.8753541076487252
+      },
+      "geriatric": {
+        "eligible_snapshots": 1013,
+        "critical_snapshots": 162,
+        "fixed_bundle_operational_recall": 0.9753086419753086,
+        "nbo_operational_recall": 0.9259259259259259
+      },
+      "pediatric": {
+        "eligible_snapshots": 623,
+        "critical_snapshots": 92,
+        "fixed_bundle_operational_recall": 0.9456521739130435,
+        "nbo_operational_recall": 0.8695652173913043
+      }
+    },
+    "history_status": {
+      "available": {
+        "eligible_snapshots": 1317,
+        "critical_snapshots": 156,
+        "fixed_bundle_operational_recall": 0.9487179487179487,
+        "nbo_operational_recall": 0.9038461538461539
+      },
+      "none": {
+        "eligible_snapshots": 2160,
+        "critical_snapshots": 324,
+        "fixed_bundle_operational_recall": 0.9660493827160493,
+        "nbo_operational_recall": 0.8919753086419753
+      },
+      "partial": {
+        "eligible_snapshots": 840,
+        "critical_snapshots": 127,
+        "fixed_bundle_operational_recall": 0.952755905511811,
+        "nbo_operational_recall": 0.8582677165354331
+      }
+    }
+  },
+  "method_limitations": [
+    "Synthetic longitudinal trajectories supply the counterfactual next measurement.",
+    "The targeted path carries forward unrequested recent values and replaces only the selected measurement group.",
+    "Typical acquisition times come from the prototype catalogue, not an observed nurse time-and-motion study.",
+    "This evaluates decision efficiency within the synthetic system, not clinical effectiveness.",
+    "The single-observation gate remains reported even if an adaptive multi-observation fallback qualifies."
+  ],
+  "synthetic_evaluation_only": true
+}

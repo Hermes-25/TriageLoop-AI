@@ -1,0 +1,13 @@
+.git
+.venv
+**/__pycache__
+**/*.pyc
+apps/web/node_modules
+apps/web/.next
+artifacts/reports
+data/generated
+data/external/mimic-iv-demo-2.2
+submission
+tmp
+*.sqlite3
+.env

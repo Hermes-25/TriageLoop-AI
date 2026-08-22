@@ -1,0 +1,22 @@
+{
+  "generator_version": "1.0.0",
+  "seed": 20260821,
+  "total_encounters": 10000,
+  "stress_encounters": 500,
+  "base_split": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "age_mix_target": {
+    "pediatric": 0.15,
+    "adult": 0.6,
+    "geriatric": 0.25
+  },
+  "history_mix_target": {
+    "none": 0.5,
+    "partial": 0.2,
+    "available": 0.3
+  },
+  "notice": "Synthetic prototype data only. Not for clinical use."
+}

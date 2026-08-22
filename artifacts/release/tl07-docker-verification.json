@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-08-22T21:04:51+05:30",
+  "passed": true,
+  "environment": {
+    "docker_desktop": "4.87.0.236836",
+    "docker_engine_client": "29.7.2",
+    "docker_engine_server": "29.7.2",
+    "docker_compose": "5.4.0",
+    "wsl": "2.7.12",
+    "wsl_default_version": 2
+  },
+  "build": {
+    "command": "docker compose up --build -d",
+    "api_image": "triageloop-api",
+    "web_image": "triageloop-web",
+    "api_healthy": true,
+    "web_running": true
+  },
+  "endpoints": {
+    "api_health": {
+      "status": "ok",
+      "mode": "synthetic-prototype",
+      "version": "0.4.0"
+    },
+    "board_http_status": 200
+  },
+  "browser_journey": {
+    "passed": true,
+    "screenshots": 8,
+    "console_errors": 0,
+    "page_errors": 0,
+    "evidence": "artifacts/release/tl07-live/verification.json"
+  },
+  "restart_persistence": {
+    "events_before": 5,
+    "events_after": 5,
+    "newest_event_hash_preserved": true,
+    "chain_intact": true
+  },
+  "reset_contract": {
+    "scenario": "baseline",
+    "events_after_reset": 1,
+    "chain_intact": true
+  },
+  "defects_found_and_fixed": [
+    "Persist pnpm downloads in a BuildKit cache and use bounded retry/timeout settings.",
+    "Include the resolved pnpm dependency tree in the Next.js runner image so standalone runtime links resolve."
+  ],
+  "scope_boundary": "Synthetic prototype acceptance evidence; not clinical validation, certification, or production authorization."
+}

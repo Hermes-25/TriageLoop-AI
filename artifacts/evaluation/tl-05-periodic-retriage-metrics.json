@@ -1,0 +1,667 @@
+{
+  "verification_version": "1.0.0",
+  "simulation_version": "1.2.0",
+  "base_seed": 20260822,
+  "periodic_retriage_minutes": 15,
+  "replications_per_cell": 100,
+  "site_profiles": [
+    "community",
+    "regional",
+    "urban_trauma"
+  ],
+  "load_states": {
+    "baseline": 1.0,
+    "surge_3x": 3.0
+  },
+  "policies": [
+    "static_periodic",
+    "triageloop"
+  ],
+  "total_policy_shifts": 1200,
+  "configuration_sha256": "b70f801dd061e6fae30ef22925871272f5d02ce39cece0bc0517216fe968aa12",
+  "cells": {
+    "community|baseline|static_periodic": {
+      "arrivals": 32.97,
+      "critical_cases": 5.99,
+      "action_window_miss_rate": 0.0,
+      "unsafe_undertriage_rate": 0.0,
+      "critical_recall": 1.0,
+      "mean_signal_to_action_minutes": 0.12664260512070658,
+      "negative_slack_minutes": 0.0,
+      "median_wait_minutes": 4.290414928959535,
+      "low_acuity_p90_wait_minutes": 7.455381369979901,
+      "waiting_time_effectiveness": 0.8512430017497418,
+      "rank_triage_effectiveness": 0.5231779845471042,
+      "throughput_within_shift": 0.9889229954553416,
+      "max_queue_length": 1.53,
+      "capacity_conflict_rate": 0.004773599556963007,
+      "consolidated_alerts": 0.0,
+      "alerts_per_waiting_patient_hour": 0.0,
+      "alerts_per_reassessment_nurse_hour": 0.0,
+      "utilization": {
+        "triage_nurse": 0.12043807578874097,
+        "reassessment_nurse": 0.1721863075016407,
+        "clinician": 0.2982477106816862,
+        "monitored_space": 0.2949837588995171,
+        "treatment_space": 0.13291112275095926
+      },
+      "replications": 100
+    },
+    "community|baseline|triageloop": {
+      "arrivals": 32.97,
+      "critical_cases": 5.99,
+      "action_window_miss_rate": 0.0,
+      "unsafe_undertriage_rate": 0.0,
+      "critical_recall": 1.0,
+      "mean_signal_to_action_minutes": 0.12269876006389219,
+      "negative_slack_minutes": 0.0,
+      "median_wait_minutes": 4.289137129026398,
+      "low_acuity_p90_wait_minutes": 7.401648010767721,
+      "waiting_time_effectiveness": 0.8512537227975899,
+      "rank_triage_effectiveness": 0.5231243122499024,
+      "throughput_within_shift": 0.9889229954553416,
+      "max_queue_length": 1.53,
+      "capacity_conflict_rate": 0.04460361152436344,
+      "consolidated_alerts": 1.67,
+      "alerts_per_waiting_patient_hour": 0.5893004495336798,
+      "alerts_per_reassessment_nurse_hour": 0.20875,
+      "utilization": {
+        "triage_nurse": 0.12043807578874097,
+        "reassessment_nurse": 0.1721863075016407,
+        "clinician": 0.2982477106816862,
+        "monitored_space": 0.2949837588995171,
+        "treatment_space": 0.13291112275095926
+      },
+      "replications": 100
+    },
+    "community|surge_3x|static_periodic": {
+      "arrivals": 99.93,
+      "critical_cases": 17.01,
+      "action_window_miss_rate": 0.3006719191407423,
+      "unsafe_undertriage_rate": 0.33855872324232805,
+      "critical_recall": 0.6993280808592577,
+      "mean_signal_to_action_minutes": 30.174178781426352,
+      "negative_slack_minutes": 418.2276523726576,
+      "median_wait_minutes": 13.563784832181982,
+      "low_acuity_p90_wait_minutes": 49.9342237959543,
+      "waiting_time_effectiveness": 0.5633620379968731,
+      "rank_triage_effectiveness": 0.2748428407734996,
+      "throughput_within_shift": 0.9340927559591207,
+      "max_queue_length": 9.95,
+      "capacity_conflict_rate": 0.2327803399140056,
+      "consolidated_alerts": 0.0,
+      "alerts_per_waiting_patient_hour": 0.0,
+      "alerts_per_reassessment_nurse_hour": 0.0,
+      "utilization": {
+        "triage_nurse": 0.36415330919718,
+        "reassessment_nurse": 0.5222164685567213,
+        "clinician": 0.8157690628434583,
+        "monitored_space": 0.7318243201615096,
+        "treatment_space": 0.38596823606358965
+      },
+      "replications": 100
+    },
+    "community|surge_3x|triageloop": {
+      "arrivals": 99.93,
+      "critical_cases": 17.01,
+      "action_window_miss_rate": 0.2574942181904609,
+      "unsafe_undertriage_rate": 0.2813892298829033,
+      "critical_recall": 0.7425057818095392,
+      "mean_signal_to_action_minutes": 24.906242127371833,
+      "negative_slack_minutes": 332.5769610659038,
+      "median_wait_minutes": 13.770420460852426,
+      "low_acuity_p90_wait_minutes": 42.40205375407481,
+      "waiting_time_effectiveness": 0.5640296630022156,
+      "rank_triage_effectiveness": 0.30050776530774553,
+      "throughput_within_shift": 0.9338360091330259,
+      "max_queue_length": 9.88,
+      "capacity_conflict_rate": 0.33306725074879007,
+      "consolidated_alerts": 44.46,
+      "alerts_per_waiting_patient_hour": 1.1189465177055231,
+      "alerts_per_reassessment_nurse_hour": 5.5575,
+      "utilization": {
+        "triage_nurse": 0.36415330919718,
+        "reassessment_nurse": 0.5222232085376121,
+        "clinician": 0.8163854080415753,
+        "monitored_space": 0.7400383822480278,
+        "treatment_space": 0.38342691581720595
+      },
+      "replications": 100
+    },
+    "regional|baseline|static_periodic": {
+      "arrivals": 99.31,
+      "critical_cases": 17.42,
+      "action_window_miss_rate": 0.0,
+      "unsafe_undertriage_rate": 0.0,
+      "critical_recall": 1.0,
+      "mean_signal_to_action_minutes": 0.0061263654406061765,
+      "negative_slack_minutes": 0.0,
+      "median_wait_minutes": 4.004162192458867,
+      "low_acuity_p90_wait_minutes": 5.241568506059316,
+      "waiting_time_effectiveness": 0.8788440537904938,
+      "rank_triage_effectiveness": 0.49848936959566287,
+      "throughput_within_shift": 0.9912065043632609,
+      "max_queue_length": 0.87,
+      "capacity_conflict_rate": 0.0,
+      "consolidated_alerts": 0.0,
+      "alerts_per_waiting_patient_hour": 0.0,
+      "alerts_per_reassessment_nurse_hour": 0.0,
+      "utilization": {
+        "triage_nurse": 0.14513363055827969,
+        "reassessment_nurse": 0.17478569878110645,
+        "clinician": 0.29727268960195746,
+        "monitored_space": 0.28722319210207387,
+        "treatment_space": 0.13533401570186263
+      },
+      "replications": 100
+    },
+    "regional|baseline|triageloop": {
+      "arrivals": 99.31,
+      "critical_cases": 17.42,
+      "action_window_miss_rate": 0.0,
+      "unsafe_undertriage_rate": 0.0,
+      "critical_recall": 1.0,
+      "mean_signal_to_action_minutes": 0.0061263654406061765,
+      "negative_slack_minutes": 0.0,
+      "median_wait_minutes": 4.003857209973699,
+      "low_acuity_p90_wait_minutes": 5.237421829892095,
+      "waiting_time_effectiveness": 0.8788468786492508,
+      "rank_triage_effectiveness": 0.4983658460197711,
+      "throughput_within_shift": 0.9912065043632609,
+      "max_queue_length": 0.87,
+      "capacity_conflict_rate": 0.02587548022267808,
+      "consolidated_alerts": 2.54,
+      "alerts_per_waiting_patient_hour": 0.38402858163060877,
+      "alerts_per_reassessment_nurse_hour": 0.10583333333333332,
+      "utilization": {
+        "triage_nurse": 0.14513363055827969,
+        "reassessment_nurse": 0.17478569878110645,
+        "clinician": 0.29727268960195746,
+        "monitored_space": 0.28722319210207387,
+        "treatment_space": 0.13533401570186263
+      },
+      "replications": 100
+    },
+    "regional|surge_3x|static_periodic": {
+      "arrivals": 298.33,
+      "critical_cases": 51.04,
+      "action_window_miss_rate": 0.11309279593876127,
+      "unsafe_undertriage_rate": 0.13914431170610875,
+      "critical_recall": 0.8869072040612387,
+      "mean_signal_to_action_minutes": 9.76748485265748,
+      "negative_slack_minutes": 296.893738542461,
+      "median_wait_minutes": 6.497135351903291,
+      "low_acuity_p90_wait_minutes": 22.854097826605802,
+      "waiting_time_effectiveness": 0.7033251152669697,
+      "rank_triage_effectiveness": 0.26575355952176827,
+      "throughput_within_shift": 0.9684309430749773,
+      "max_queue_length": 14.09,
+      "capacity_conflict_rate": 0.06632206672500918,
+      "consolidated_alerts": 0.0,
+      "alerts_per_waiting_patient_hour": 0.0,
+      "alerts_per_reassessment_nurse_hour": 0.0,
+      "utilization": {
+        "triage_nurse": 0.4341213786209227,
+        "reassessment_nurse": 0.5365654999830937,
+        "clinician": 0.8493518745782247,
+        "monitored_space": 0.7870787075699148,
+        "treatment_space": 0.39838943647372205
+      },
+      "replications": 100
+    },
+    "regional|surge_3x|triageloop": {
+      "arrivals": 298.33,
+      "critical_cases": 51.04,
+      "action_window_miss_rate": 0.08247728939822485,
+      "unsafe_undertriage_rate": 0.09572121889323372,
+      "critical_recall": 0.917522710601775,
+      "mean_signal_to_action_minutes": 7.723229909271982,
+      "negative_slack_minutes": 209.94206088228225,
+      "median_wait_minutes": 6.260776828380379,
+      "low_acuity_p90_wait_minutes": 19.167014949427752,
+      "waiting_time_effectiveness": 0.7022888435066283,
+      "rank_triage_effectiveness": 0.2825447897150967,
+      "throughput_within_shift": 0.9686600516638996,
+      "max_queue_length": 14.09,
+      "capacity_conflict_rate": 0.1393482859768108,
+      "consolidated_alerts": 63.46,
+      "alerts_per_waiting_patient_hour": 0.9560037098591317,
+      "alerts_per_reassessment_nurse_hour": 2.644166666666667,
+      "utilization": {
+        "triage_nurse": 0.4341213786209227,
+        "reassessment_nurse": 0.536581469946481,
+        "clinician": 0.8503090907123529,
+        "monitored_space": 0.7917359798310868,
+        "treatment_space": 0.39733592729625866
+      },
+      "replications": 100
+    },
+    "urban_trauma|baseline|static_periodic": {
+      "arrivals": 182.72,
+      "critical_cases": 31.71,
+      "action_window_miss_rate": 0.0,
+      "unsafe_undertriage_rate": 0.0,
+      "critical_recall": 1.0,
+      "mean_signal_to_action_minutes": 0.003454128553580489,
+      "negative_slack_minutes": 0.0,
+      "median_wait_minutes": 3.9943374659016406,
+      "low_acuity_p90_wait_minutes": 5.211656832466502,
+      "waiting_time_effectiveness": 0.8790726289017476,
+      "rank_triage_effectiveness": 0.4906569295995907,
+      "throughput_within_shift": 0.9921518740798944,
+      "max_queue_length": 0.12,
+      "capacity_conflict_rate": 0.0,
+      "consolidated_alerts": 0.0,
+      "alerts_per_waiting_patient_hour": 0.0,
+      "alerts_per_reassessment_nurse_hour": 0.0,
+      "utilization": {
+        "triage_nurse": 0.1665902904857962,
+        "reassessment_nurse": 0.1931368212224097,
+        "clinician": 0.2984532764433357,
+        "monitored_space": 0.31557432566783145,
+        "treatment_space": 0.1504680408036579
+      },
+      "replications": 100
+    },
+    "urban_trauma|baseline|triageloop": {
+      "arrivals": 182.72,
+      "critical_cases": 31.71,
+      "action_window_miss_rate": 0.0,
+      "unsafe_undertriage_rate": 0.0,
+      "critical_recall": 1.0,
+      "mean_signal_to_action_minutes": 0.003454128553580489,
+      "negative_slack_minutes": 0.0,
+      "median_wait_minutes": 3.9943374659016406,
+      "low_acuity_p90_wait_minutes": 5.211656832466502,
+      "waiting_time_effectiveness": 0.879071247686278,
+      "rank_triage_effectiveness": 0.4906569295995907,
+      "throughput_within_shift": 0.9921518740798944,
+      "max_queue_length": 0.12,
+      "capacity_conflict_rate": 0.02450510551141297,
+      "consolidated_alerts": 4.41,
+      "alerts_per_waiting_patient_hour": 0.36697626309051956,
+      "alerts_per_reassessment_nurse_hour": 0.11025,
+      "utilization": {
+        "triage_nurse": 0.1665902904857962,
+        "reassessment_nurse": 0.19313682122240972,
+        "clinician": 0.2984532764433357,
+        "monitored_space": 0.31557432566783145,
+        "treatment_space": 0.1504680408036579
+      },
+      "replications": 100
+    },
+    "urban_trauma|surge_3x|static_periodic": {
+      "arrivals": 545.57,
+      "critical_cases": 93.18,
+      "action_window_miss_rate": 0.11642467702641733,
+      "unsafe_undertriage_rate": 0.14754336999816267,
+      "critical_recall": 0.8835753229735827,
+      "mean_signal_to_action_minutes": 10.51369897846826,
+      "negative_slack_minutes": 592.4347511010068,
+      "median_wait_minutes": 5.3396170841839385,
+      "low_acuity_p90_wait_minutes": 21.32210507296289,
+      "waiting_time_effectiveness": 0.7451158914159915,
+      "rank_triage_effectiveness": 0.22413315674105058,
+      "throughput_within_shift": 0.9710073183290545,
+      "max_queue_length": 20.05,
+      "capacity_conflict_rate": 0.03192466111960043,
+      "consolidated_alerts": 0.0,
+      "alerts_per_waiting_patient_hour": 0.0,
+      "alerts_per_reassessment_nurse_hour": 0.0,
+      "utilization": {
+        "triage_nurse": 0.4974871491608793,
+        "reassessment_nurse": 0.5859587185239588,
+        "clinician": 0.8534053017158673,
+        "monitored_space": 0.8571087086199956,
+        "treatment_space": 0.44181554639079373
+      },
+      "replications": 100
+    },
+    "urban_trauma|surge_3x|triageloop": {
+      "arrivals": 545.57,
+      "critical_cases": 93.18,
+      "action_window_miss_rate": 0.08162180039164749,
+      "unsafe_undertriage_rate": 0.10382184048116198,
+      "critical_recall": 0.9183781996083524,
+      "mean_signal_to_action_minutes": 9.89124463288038,
+      "negative_slack_minutes": 582.5990833942161,
+      "median_wait_minutes": 5.262438721635736,
+      "low_acuity_p90_wait_minutes": 19.036082041983466,
+      "waiting_time_effectiveness": 0.7460104032625516,
+      "rank_triage_effectiveness": 0.23688019379778447,
+      "throughput_within_shift": 0.9710731269417107,
+      "max_queue_length": 20.11,
+      "capacity_conflict_rate": 0.09771509191116935,
+      "consolidated_alerts": 88.14,
+      "alerts_per_waiting_patient_hour": 0.8593536724532207,
+      "alerts_per_reassessment_nurse_hour": 2.2035,
+      "utilization": {
+        "triage_nurse": 0.4974871491608793,
+        "reassessment_nurse": 0.5859514125105744,
+        "clinician": 0.8540014563910742,
+        "monitored_space": 0.8600086993310682,
+        "treatment_space": 0.4410826897138346
+      },
+      "replications": 100
+    }
+  },
+  "paired_comparisons": {
+    "community|baseline|action_window_miss_rate": {
+      "static_mean": 0.0,
+      "triageloop_mean": 0.0,
+      "relative_improvement": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    "community|baseline|negative_slack_minutes": {
+      "static_mean": 0.0,
+      "triageloop_mean": 0.0,
+      "relative_improvement": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    "community|baseline|mean_signal_to_action_minutes": {
+      "static_mean": 0.12664260512070658,
+      "triageloop_mean": 0.12269876006389219,
+      "relative_improvement": 0.03114153450219537,
+      "ci95_low": 0.0,
+      "ci95_high": 0.14026281633793117
+    },
+    "community|baseline|low_acuity_p90_wait_minutes": {
+      "static_mean": 7.455381369979901,
+      "triageloop_mean": 7.401648010767721,
+      "relative_improvement": 0.0072073253594437,
+      "ci95_low": 0.0007576936945316002,
+      "ci95_high": 0.016434035749157146
+    },
+    "community|baseline|waiting_time_effectiveness": {
+      "static_mean": 0.8512430017497418,
+      "triageloop_mean": 0.8512537227975899,
+      "relative_improvement": 1.2594579721799686e-05,
+      "ci95_low": -0.00032943780488809294,
+      "ci95_high": 0.00029980671712197444
+    },
+    "community|baseline|rank_triage_effectiveness": {
+      "static_mean": 0.5231779845471042,
+      "triageloop_mean": 0.5231243122499024,
+      "relative_improvement": -0.00010258898269243864,
+      "ci95_low": -0.0017369966546567236,
+      "ci95_high": 0.0017437856272010267
+    },
+    "community|surge_3x|action_window_miss_rate": {
+      "static_mean": 0.3006719191407423,
+      "triageloop_mean": 0.2574942181904609,
+      "relative_improvement": 0.1436040355004693,
+      "ci95_low": 0.09963868998918775,
+      "ci95_high": 0.18676136299154997
+    },
+    "community|surge_3x|negative_slack_minutes": {
+      "static_mean": 418.2276523726576,
+      "triageloop_mean": 332.5769610659038,
+      "relative_improvement": 0.2047944243304974,
+      "ci95_low": 0.14639828973565283,
+      "ci95_high": 0.270469627846044
+    },
+    "community|surge_3x|mean_signal_to_action_minutes": {
+      "static_mean": 30.174178781426352,
+      "triageloop_mean": 24.906242127371833,
+      "relative_improvement": 0.17458425935015623,
+      "ci95_low": 0.131456776576904,
+      "ci95_high": 0.22107360409767132
+    },
+    "community|surge_3x|low_acuity_p90_wait_minutes": {
+      "static_mean": 49.9342237959543,
+      "triageloop_mean": 42.40205375407481,
+      "relative_improvement": 0.15084183690644964,
+      "ci95_low": 0.04459130960476904,
+      "ci95_high": 0.23715481235844807
+    },
+    "community|surge_3x|waiting_time_effectiveness": {
+      "static_mean": 0.5633620379968731,
+      "triageloop_mean": 0.5640296630022156,
+      "relative_improvement": 0.0011850727601673426,
+      "ci95_low": -0.0033185682790084245,
+      "ci95_high": 0.005953536071491608
+    },
+    "community|surge_3x|rank_triage_effectiveness": {
+      "static_mean": 0.2748428407734996,
+      "triageloop_mean": 0.30050776530774553,
+      "relative_improvement": 0.09338036407285082,
+      "ci95_low": 0.06415972802800811,
+      "ci95_high": 0.12523260882788084
+    },
+    "regional|baseline|action_window_miss_rate": {
+      "static_mean": 0.0,
+      "triageloop_mean": 0.0,
+      "relative_improvement": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    "regional|baseline|negative_slack_minutes": {
+      "static_mean": 0.0,
+      "triageloop_mean": 0.0,
+      "relative_improvement": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    "regional|baseline|mean_signal_to_action_minutes": {
+      "static_mean": 0.0061263654406061765,
+      "triageloop_mean": 0.0061263654406061765,
+      "relative_improvement": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    "regional|baseline|low_acuity_p90_wait_minutes": {
+      "static_mean": 5.241568506059316,
+      "triageloop_mean": 5.237421829892095,
+      "relative_improvement": 0.0007911136070105162,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0023158271698792495
+    },
+    "regional|baseline|waiting_time_effectiveness": {
+      "static_mean": 0.8788440537904938,
+      "triageloop_mean": 0.8788468786492508,
+      "relative_improvement": 3.2142889797553694e-06,
+      "ci95_low": 0.0,
+      "ci95_high": 9.655161199801744e-06
+    },
+    "regional|baseline|rank_triage_effectiveness": {
+      "static_mean": 0.49848936959566287,
+      "triageloop_mean": 0.4983658460197711,
+      "relative_improvement": -0.00024779580754547687,
+      "ci95_low": -0.0005680636446972595,
+      "ci95_high": -4.491207049992364e-05
+    },
+    "regional|surge_3x|action_window_miss_rate": {
+      "static_mean": 0.11309279593876127,
+      "triageloop_mean": 0.08247728939822485,
+      "relative_improvement": 0.27071137720491445,
+      "ci95_low": 0.20371103369787535,
+      "ci95_high": 0.3341420679847003
+    },
+    "regional|surge_3x|negative_slack_minutes": {
+      "static_mean": 296.893738542461,
+      "triageloop_mean": 209.94206088228225,
+      "relative_improvement": 0.2928713757556835,
+      "ci95_low": 0.1961339585929235,
+      "ci95_high": 0.4012298295955281
+    },
+    "regional|surge_3x|mean_signal_to_action_minutes": {
+      "static_mean": 9.76748485265748,
+      "triageloop_mean": 7.723229909271982,
+      "relative_improvement": 0.20929184679813548,
+      "ci95_low": 0.1531776418243717,
+      "ci95_high": 0.2714594301439105
+    },
+    "regional|surge_3x|low_acuity_p90_wait_minutes": {
+      "static_mean": 22.854097826605802,
+      "triageloop_mean": 19.167014949427752,
+      "relative_improvement": 0.16133136845531917,
+      "ci95_low": 0.10543086432109766,
+      "ci95_high": 0.22033302082767214
+    },
+    "regional|surge_3x|waiting_time_effectiveness": {
+      "static_mean": 0.7033251152669697,
+      "triageloop_mean": 0.7022888435066283,
+      "relative_improvement": -0.0014733893868528044,
+      "ci95_low": -0.00471138361579728,
+      "ci95_high": 0.0018059201912653641
+    },
+    "regional|surge_3x|rank_triage_effectiveness": {
+      "static_mean": 0.26575355952176827,
+      "triageloop_mean": 0.2825447897150967,
+      "relative_improvement": 0.06318346299310079,
+      "ci95_low": 0.04420544280017238,
+      "ci95_high": 0.08177141307643608
+    },
+    "urban_trauma|baseline|action_window_miss_rate": {
+      "static_mean": 0.0,
+      "triageloop_mean": 0.0,
+      "relative_improvement": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    "urban_trauma|baseline|negative_slack_minutes": {
+      "static_mean": 0.0,
+      "triageloop_mean": 0.0,
+      "relative_improvement": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    "urban_trauma|baseline|mean_signal_to_action_minutes": {
+      "static_mean": 0.003454128553580489,
+      "triageloop_mean": 0.003454128553580489,
+      "relative_improvement": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    "urban_trauma|baseline|low_acuity_p90_wait_minutes": {
+      "static_mean": 5.211656832466502,
+      "triageloop_mean": 5.211656832466502,
+      "relative_improvement": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    "urban_trauma|baseline|waiting_time_effectiveness": {
+      "static_mean": 0.8790726289017476,
+      "triageloop_mean": 0.879071247686278,
+      "relative_improvement": -1.5712188324987737e-06,
+      "ci95_low": -4.7191858227081035e-06,
+      "ci95_high": 0.0
+    },
+    "urban_trauma|baseline|rank_triage_effectiveness": {
+      "static_mean": 0.4906569295995907,
+      "triageloop_mean": 0.4906569295995907,
+      "relative_improvement": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    "urban_trauma|surge_3x|action_window_miss_rate": {
+      "static_mean": 0.11642467702641733,
+      "triageloop_mean": 0.08162180039164749,
+      "relative_improvement": 0.2989304116933294,
+      "ci95_low": 0.2386780223301292,
+      "ci95_high": 0.3556955683650275
+    },
+    "urban_trauma|surge_3x|negative_slack_minutes": {
+      "static_mean": 592.4347511010068,
+      "triageloop_mean": 582.5990833942161,
+      "relative_improvement": 0.01660211135236688,
+      "ci95_low": -0.06851832032624948,
+      "ci95_high": 0.11164697656107804
+    },
+    "urban_trauma|surge_3x|mean_signal_to_action_minutes": {
+      "static_mean": 10.51369897846826,
+      "triageloop_mean": 9.89124463288038,
+      "relative_improvement": 0.059204124719820214,
+      "ci95_low": 0.019994736915972523,
+      "ci95_high": 0.10543788141618919
+    },
+    "urban_trauma|surge_3x|low_acuity_p90_wait_minutes": {
+      "static_mean": 21.32210507296289,
+      "triageloop_mean": 19.036082041983466,
+      "relative_improvement": 0.10721375882713266,
+      "ci95_low": 0.06354007239089215,
+      "ci95_high": 0.14464089820556075
+    },
+    "urban_trauma|surge_3x|waiting_time_effectiveness": {
+      "static_mean": 0.7451158914159915,
+      "triageloop_mean": 0.7460104032625516,
+      "relative_improvement": 0.0012005002938001877,
+      "ci95_low": -0.0006939950726593909,
+      "ci95_high": 0.0029755313946062054
+    },
+    "urban_trauma|surge_3x|rank_triage_effectiveness": {
+      "static_mean": 0.22413315674105058,
+      "triageloop_mean": 0.23688019379778447,
+      "relative_improvement": 0.0568726075252713,
+      "ci95_low": 0.04079966303139385,
+      "ci95_high": 0.0746843958682364
+    }
+  },
+  "overall_surge": {
+    "action_window_miss_rate": {
+      "static_mean": 0.1767297973686403,
+      "triageloop_mean": 0.14053110266011107,
+      "relative_improvement": 0.2048250790047728,
+      "ci95_low": 0.17397555367695552,
+      "ci95_high": 0.2381210371130867
+    },
+    "negative_slack_minutes": {
+      "static_mean": 435.8520473387085,
+      "triageloop_mean": 375.0393684474674,
+      "relative_improvement": 0.13952596818704963,
+      "ci95_low": 0.08760454600768437,
+      "ci95_high": 0.19698823681084024
+    },
+    "mean_signal_to_action_minutes": {
+      "static_mean": 16.81845420418403,
+      "triageloop_mean": 14.173572223174734,
+      "relative_improvement": 0.1572607059423637,
+      "ci95_low": 0.1247871057685648,
+      "ci95_high": 0.1886427965608879
+    },
+    "low_acuity_p90_wait_minutes": {
+      "static_mean": 31.370142231841,
+      "triageloop_mean": 26.868383581828674,
+      "relative_improvement": 0.14350456611710857,
+      "ci95_low": 0.0871878375168366,
+      "ci95_high": 0.19524082992785705
+    }
+  },
+  "deterioration_response_sensitivity": {
+    "10": {
+      "periodic_retriage_mean": 0.29542973583447735,
+      "triageloop_mean": 0.25758652620408085,
+      "relative_improvement": 0.12809546582541442,
+      "ci95_low": 0.08887034149300038,
+      "ci95_high": 0.16667969474470892,
+      "paired_policy_shifts": 180
+    },
+    "20": {
+      "periodic_retriage_mean": 0.19132173008244524,
+      "triageloop_mean": 0.1663708068663455,
+      "relative_improvement": 0.13041343084942714,
+      "ci95_low": 0.06741539265575386,
+      "ci95_high": 0.1974985355846418,
+      "paired_policy_shifts": 180
+    },
+    "30": {
+      "periodic_retriage_mean": 0.1500579499313329,
+      "triageloop_mean": 0.11384509052127029,
+      "relative_improvement": 0.24132583063165766,
+      "ci95_low": 0.16473314098315817,
+      "ci95_high": 0.3129144657373021,
+      "paired_policy_shifts": 180
+    }
+  },
+  "interpretation_gates": {
+    "directionally_fewer_surge_misses_than_periodic_retriage": true,
+    "low_acuity_p90_no_more_than_20pct_worse_than_periodic": true,
+    "all_cells_have_registered_replications": true
+  },
+  "registered_gate_notice": "The original >=20% gate was registered against initial static triage, not this stronger TL-05 comparator. No new 20% threshold is retroactively imposed.",
+  "sensitivity_notice": "The 10/20/30-minute periodic-comparator sensitivity is a TL-06.5 post-verification robustness analysis, not a retroactively registered gate.",
+  "synthetic_simulation_only": true,
+  "not_for_clinical_or_staffing_use": true
+}

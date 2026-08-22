@@ -1,0 +1,13 @@
+flowchart LR
+  A[Seeded longitudinal generator] --> B[Patient-level split]
+  B --> C[Causal feature cut]
+  C --> D1[L2 logistic benchmark]
+  C --> D2[Boosted-stump challenger]
+  D1 --> E[Validation-only calibration and thresholds]
+  D2 --> E
+  E --> F[Untouched test and shifted stress cohorts]
+  F --> G{Registered safety gates pass?}
+  G -- no --> H[Reject or retain as fallback]
+  G -- yes --> I[Mondrian conformal plus OOD shell]
+  I --> J[Dynamic Action Window]
+  J --> K[Release candidate]
