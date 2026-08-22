@@ -30,7 +30,7 @@ The 18-page proposal, 19-slide pitch, editable source formats, speaker notes, pr
 
 The following are deliberately not marked complete:
 
-1. **Preferred portal video link:** The captioned MP4 is bundled in the public repository; a portal-preferred public or unlisted video-host link should still be selected and tested without account access.
+1. **Optional alternate video host:** The captioned MP4 is publicly downloadable from the `v1.0.0` GitHub release; use a public or unlisted streaming host only if the portal specifically requires or prefers one.
 2. **Identity fields:** Team name, campus name, member details and any portal-prescribed file naming must be supplied by Abhishek.
 3. **Portal submission:** The active Round-2 form, deadline, required fields and final link playback must be checked immediately before submission.
 

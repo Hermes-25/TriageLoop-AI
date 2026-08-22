@@ -21,4 +21,4 @@ The proposal is 18 pages, including a six-screen working-product evidence append
 
 The code and product verification baseline is 73 passing tests plus a successful TypeScript check and optimized production build. The TL-07 isolated, Vercel and Docker deployments pass the complete reset-to-evidence workflow without browser or page errors. The Docker restart check also preserves the five-event audit stream and newest hash exactly before deterministic reset. The verified public repository is <https://github.com/Hermes-25/TriageLoop-AI>.
 
-The repository and bundled captioned MP4 are public. Team/campus identity fields, the final portal-preferred video URL and the portal submission remain human-controlled completion gates.
+The repository and bundled captioned MP4 are public. Versioned jury downloads are available from <https://github.com/Hermes-25/TriageLoop-AI/releases/tag/v1.0.0>. Team/campus identity fields, any portal-preferred alternate video host and the portal submission remain human-controlled completion gates.

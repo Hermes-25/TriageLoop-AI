@@ -6,7 +6,7 @@
 - [x] Working prototype runs from the repository instructions.
 - [x] Public GitHub repository contains source, dependencies and configuration: <https://github.com/Hermes-25/TriageLoop-AI>.
 - [x] README explains approach, architecture, implementation, features and execution.
-- [ ] Prototype demo video is uploaded and playable without access requests.
+- [x] Prototype demo video is publicly downloadable without access requests from the `v1.0.0` GitHub release.
 - [x] Pitch presentation opens correctly and uses verified results only.
 
 ## Claim-control gate
@@ -38,5 +38,5 @@
 ## Final human approval
 
 - [x] Abhishek approved the narrative, claims and visual direction through the TL-06.5 → TL-07 gate.
-- [ ] Team/campus names, member details and final portal video URL are filled; repository URL is <https://github.com/Hermes-25/TriageLoop-AI>.
+- [ ] Team/campus names and member details are filled; repository and public GitHub-release video URLs are complete, while any portal-preferred alternate host remains optional.
 - [ ] Final portal fields and deadline are rechecked on Unstop immediately before submission.

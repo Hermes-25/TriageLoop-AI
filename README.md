@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/Hermes-25/TriageLoop-AI/actions/workflows/ci.yml"><img alt="Verification" src="https://github.com/Hermes-25/TriageLoop-AI/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/Hermes-25/TriageLoop-AI/releases/tag/v1.0.0"><img alt="Release v1.0.0" src="https://img.shields.io/badge/release-v1.0.0-6f2c61?style=flat-square"></a>
   <a href="https://triageloop-ai.vercel.app/board"><img alt="Live jury preview" src="https://img.shields.io/badge/live_jury_preview-open-2f855a?style=flat-square"></a>
   <a href="LICENSE"><img alt="Apache 2.0 license" src="https://img.shields.io/badge/license-Apache--2.0-5b315e?style=flat-square"></a>
   <img alt="Synthetic prototype" src="https://img.shields.io/badge/data-synthetic_only-b33b32?style=flat-square">
@@ -21,6 +22,7 @@
   · <a href="submission/video/TriageLoop_Prototype_Demo.mp4">Watch the 2:05 demo</a>
   · <a href="submission/TriageLoop_Technical_Working_Paper.pdf">Read the technical paper</a>
   · <a href="submission/TriageLoop_Accenture_Round2_Pitch.pdf">View the pitch</a>
+  · <a href="https://github.com/Hermes-25/TriageLoop-AI/releases/tag/v1.0.0">Download the release</a>
 </p>
 
 > [!CAUTION]
