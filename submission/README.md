@@ -19,6 +19,6 @@ Prepared TL-06 artifacts:
 
 The proposal is 18 pages, including a six-screen working-product evidence appendix. The pitch contains 16 core slides and three appendices, with source-bearing speaker notes. Both PDFs have been fully rendered and reviewed page-by-page. The proposal accessibility audit reports zero findings.
 
-The code and product verification baseline is 73 passing tests plus a successful TypeScript check and optimized production build. The TL-07 isolated, Vercel and Docker deployments pass the complete reset-to-evidence workflow without browser or page errors. The Docker restart check also preserves the five-event audit stream and newest hash exactly before deterministic reset. Repository publication remains gated only by explicit GitHub identity/visibility approval and authentication.
+The code and product verification baseline is 73 passing tests plus a successful TypeScript check and optimized production build. The TL-07 isolated, Vercel and Docker deployments pass the complete reset-to-evidence workflow without browser or page errors. The Docker restart check also preserves the five-event audit stream and newest hash exactly before deterministic reset. The verified public repository is <https://github.com/Hermes-25/TriageLoop-AI>.
 
-Repository and video URLs remain explicit placeholders until Abhishek authorizes external publication/upload. Do not publish from this folder without that approval.
+The repository and bundled captioned MP4 are public. Team/campus identity fields, the final portal-preferred video URL and the portal submission remain human-controlled completion gates.

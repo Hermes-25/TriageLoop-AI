@@ -1,5 +1,7 @@
 # TL-07 Final Checkpoint
 
+> Historical checkpoint: its Docker and GitHub blockers were subsequently resolved. See `docs/tl-07-release-report.md` for the current release state.
+
 Date: 22 August 2026  
 Status: **Internal release candidate complete — waiting on executive/external gates**
 

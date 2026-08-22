@@ -1,7 +1,7 @@
 # TL-07 Final Release Report
 
 Date: 22 August 2026  
-State: **Internal release candidate ready — external publication gates remain**
+State: **Public repository released — final portal gates remain**
 
 ## Release-candidate result
 
@@ -12,7 +12,7 @@ State: **Internal release candidate ready — external publication gates remain*
 - TypeScript verification and the optimized Next.js production build pass.
 - The production Vercel jury preview is `READY` at <https://triageloop-ai.vercel.app/board>; its public reset-to-capacity browser journey passes with eight screenshots and zero console/page errors.
 - Docker Desktop 4.87.0 / Engine 29.7.2 / Compose 5.4.0 passed the reference container gate: both services built and started, API health and `/board` passed, the full eight-screen browser journey passed with zero errors, five audit events plus the newest hash persisted across restart, and reset returned one intact baseline event.
-- The staged public-repository surface contains 174 files, approximately 19.7 MB before compression, with no file above 9 MB.
+- The public repository release contains 209 curated files, approximately 21.7 MB, with no file above GitHub's standard per-file limit.
 - Generated dependencies, caches, raw external data, local databases, agent instruction files, build outputs and temporary release tooling are excluded.
 - A staged-content secret-signature scan found no private-key, GitHub-token, OpenAI-token or AWS-key signature.
 
@@ -30,9 +30,8 @@ The 18-page proposal, 19-slide pitch, editable source formats, speaker notes, pr
 
 The following are deliberately not marked complete:
 
-1. **GitHub publication:** GitHub CLI currently reports an invalid token for the configured `Hermes-25` account. Reauthentication and repository identity/visibility approval are required.
-2. **Public video link:** The MP4 is prepared locally but has not been uploaded. The selected public or unlisted link must be tested without account access.
-3. **Identity fields:** Team name, campus name, member details and any portal-prescribed file naming must be supplied by Abhishek.
-4. **Portal submission:** The active Round-2 form, deadline, required fields and final link playback must be checked immediately before submission.
+1. **Preferred portal video link:** The captioned MP4 is bundled in the public repository; a portal-preferred public or unlisted video-host link should still be selected and tested without account access.
+2. **Identity fields:** Team name, campus name, member details and any portal-prescribed file naming must be supplied by Abhishek.
+3. **Portal submission:** The active Round-2 form, deadline, required fields and final link playback must be checked immediately before submission.
 
-No public repository, external video upload or portal submission is claimed in this report. The public Vercel artifact is a synthetic presentation adapter, not a clinical deployment; the passed Docker path remains the technical reference implementation.
+The public repository is <https://github.com/Hermes-25/TriageLoop-AI>. No portal submission is claimed in this report. The public Vercel artifact is a synthetic presentation adapter, not a clinical deployment; the passed Docker path remains the technical reference implementation.

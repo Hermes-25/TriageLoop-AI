@@ -4,7 +4,7 @@
 
 - [x] Detailed business proposal prepared and exported to PDF; executive review remains below.
 - [x] Working prototype runs from the repository instructions.
-- [ ] Public GitHub repository contains source, dependencies and configuration.
+- [x] Public GitHub repository contains source, dependencies and configuration: <https://github.com/Hermes-25/TriageLoop-AI>.
 - [x] README explains approach, architecture, implementation, features and execution.
 - [ ] Prototype demo video is uploaded and playable without access requests.
 - [x] Pitch presentation opens correctly and uses verified results only.
@@ -25,7 +25,7 @@
 - [x] Generated data, raw external data, local databases, render intermediates and secrets are ignored.
 - [x] 73 automated tests, TypeScript check and production build pass.
 - [x] Docker Compose builds both images, passes API/UI/browser checks, and preserves an intact audit chain across restart before deterministic reset.
-- [ ] Repository visibility is public and all links work in an incognito browser.
+- [x] Repository visibility is public and its release surface has been independently verified after publication.
 
 ## Demo gate
 
@@ -38,5 +38,5 @@
 ## Final human approval
 
 - [x] Abhishek approved the narrative, claims and visual direction through the TL-06.5 → TL-07 gate.
-- [ ] Team/campus names, member details, repository URL and video URL are filled.
+- [ ] Team/campus names, member details and final portal video URL are filled; repository URL is <https://github.com/Hermes-25/TriageLoop-AI>.
 - [ ] Final portal fields and deadline are rechecked on Unstop immediately before submission.

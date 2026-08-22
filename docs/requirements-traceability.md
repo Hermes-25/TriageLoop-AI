@@ -1,6 +1,6 @@
 # Problem Statement Traceability
 
-Status: TL-06 packaging evidence is recorded; TL-07 external publication, video and final submission evidence remain outstanding.
+Status: TL-07 repository publication and Docker verification are complete; final portal identity, preferred video-link and submission evidence remain outstanding.
 
 | ID | Brief requirement / complexity | Planned visible evidence | Planned automated evidence | Phase |
 |---|---|---|---|---|
@@ -39,7 +39,7 @@ Status: TL-06 packaging evidence is recorded; TL-07 external publication, video 
 | DEL-01 | Detailed business proposal | 18-page proposal delivered as DOCX and rendered PDF with business case, roadmap, risks/mitigations and a six-screen product appendix | Zero findings in the automated proposal-document accessibility audit; 18-page visual inspection; formal nurse/assistive-technology product usability remains external | TL-06/TL-07 |
 | DEL-02 | Working prototype | Live deadline board, patient inspector, baseline/surge, deterioration, decisions, evidence, resilience and audit routes implemented | 73-test suite, production build, live full-story and degraded-mode recovery verified | TL-04/TL-04.5/TL-05/TL-06.5/TL-07 |
 | DEL-03 | Pitch presentation | 19-slide editable pitch with working product, safety architecture, evidence, NBO failure, business case and appendices | 19 artifact renders + 19-slide PowerPoint PDF inspected; text claim scan | TL-06/TL-07 |
-| DEL-04 | Public repository + README | Source, dependencies, configuration, execution, architecture, evidence and safety boundaries documented; Docker assets added | 73 tests, type-check and production build pass; Docker-equipped clean-machine run remains TL-07 | TL-06/TL-06.5/TL-07 |
+| DEL-04 | Public repository + README | Source, dependencies, configuration, execution, architecture, evidence and safety boundaries published at `Hermes-25/TriageLoop-AI` | 73 tests, type-check, production build and Docker Compose browser/restart/persistence/reset gates pass; public CI included | TL-06/TL-06.5/TL-07 |
 | DEL-05 | Prototype demo video | 2:05 captioned MP4 release candidate covers deterioration, NBO boundary, surge, override, audit and evidence; transcript included | 1440×900 H.264 file and representative frames inspected; upload and public-link playback remain external TL-07 actions | TL-07 |
 
 ## Traceability release rule
