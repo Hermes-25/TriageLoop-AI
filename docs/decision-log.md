@@ -166,7 +166,7 @@ Decisions marked **Locked** control implementation unless an explicit change is 
 - Date: 22 August 2026
 - Status: **Selected, pending executive phase approval**
 - Decision: use 12 curated patients for the deterministic interactive board, with the complete 28-case fixture and 10,000-encounter population retained for automated evidence.
-- Reason: 12 patients keep the live board readable at jury-demo scale without narrowing the evaluation set.
+- Reason: 20 patients make the stated prototype minimum directly visible; the scrollable board preserves readability without narrowing the 28-case fixture library.
 
 ## D-024 - Independent-review disposition
 

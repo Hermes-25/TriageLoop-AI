@@ -5,6 +5,7 @@ import { AlertTriangle, ChevronRight, Play, RefreshCw, Search } from "lucide-rea
 import { formatAction, formatActionWindow, formatEta, formatMinutes, RiskSparkline, StatusMark } from "@/app/components/ClinicalVisuals";
 import { PatientInspector } from "@/app/components/PatientInspector";
 import { useProduct } from "@/app/components/ProductProvider";
+import { TriageLoader } from "@/app/components/TriageLoader";
 
 type Filter = "all" | "attention" | "conflict" | "safe_mode";
 
@@ -47,7 +48,7 @@ export function PatientBoard() {
   }, [state, filter, query]);
 
   if (loading) {
-    return <main className="board-loading"><div className="board-skeleton" /><div className="inspector-skeleton" /></main>;
+    return <TriageLoader />;
   }
 
   if (error && !state) {
@@ -77,7 +78,7 @@ export function PatientBoard() {
           <header className="queue-header">
             <div>
               <h1 id="queue-heading">Live action queue</h1>
-              <p>Ranked by clinical level, Action Window and Clinical Slack</p>
+              <p><strong>{state.summary.waiting} simulated patients</strong> shown from a 28-case test library · ranked by clinical level, Action Window and Clinical Slack</p>
             </div>
             <div className="queue-summary" aria-label="Queue summary">
               <span><strong>{state.summary.waiting}</strong> waiting</span>

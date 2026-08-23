@@ -31,7 +31,7 @@
 \definecolor{TLine}{HTML}{DDD7E0}
 \definecolor{TPaper}{HTML}{FBF9FB}
 
-\hypersetup{colorlinks=true,linkcolor=TBrand,citecolor=TInfo,urlcolor=TInfo,pdftitle={TriageLoop: A Safety-Oriented, Deadline-Aware Control Loop for Emergency-Department Waiting Rooms},pdfauthor={TriageLoop Team}}
+\hypersetup{colorlinks=true,linkcolor=TBrand,citecolor=TInfo,urlcolor=TInfo,pdftitle={TriageLoop: A Safety-Oriented, Deadline-Aware Control Loop for Emergency-Department Waiting Rooms},pdfauthor={Abhishek Das, Team Zeta}}
 \urlstyle{same}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{5.5pt}
@@ -81,7 +81,7 @@ Problem track: & PatientTriage.ai \\
 System version: & Prototype 0.4.0 / Model 2.0.0 / Simulation 1.1.0 \\
 Evidence lock: & 22 August 2026 \\
 Document status: & Technical release candidate \\
-Authors: & TriageLoop Team \\
+Authors: & Abhishek Das, Final Year, IIT Guwahati - Team Zeta \\
 \end{tabular}
 \vspace{10mm}
 
@@ -217,7 +217,7 @@ Waiting-patient monitoring & Repeat observations trigger recomputation; absolute
 Safe-wait threshold breach & Category bound and Action Window expire independently of new model output & Queue aging and capacity-conflict scenario tests \\
 Patient-data protection & Synthetic-only contract, pseudonymous IDs, minimization, narrow CORS and headers & Direct name rejected; secrets/raw data/database ignored; India governance baseline \\
 Adoption and alert fatigue & One consolidated current action per patient; measured alert denominators; degraded mode & 0.86-1.12 signals/waiting-patient-hour during surge; Community warning retained \\
-15-20 simulated patients & Twelve-patient live board plus 28 curated fixtures and 10,000 generated encounters & Automated count/coverage tests and deterministic demo reset \\
+15-20 simulated patients & Twenty-patient live board plus 28 curated fixtures and 10,000 generated encounters & Automated count/coverage tests and deterministic demo reset \\
 3x surge & Queue Twin with site/load configuration and scenario switch & 1,800 original and 1,200 stronger-comparator policy shifts \\
 Explicit confidence & Horizon risks, conformal set, uncertainty state, OOD, abstention and quality & Recommendation contract and live inspector \\
 Clinician override and log & Reasoned state transition plus hash-linked event & Five-event live chain; tamper detection test \\
@@ -323,7 +323,7 @@ Forty-four standardized/imputed features include current values, deltas, missing
 
 \subsection{Curated cases}
 
-Twenty-eight deterministic fixtures cover ambiguous presentations, pediatric and geriatric states, no-history intake, missing and stale data, worsening vital signs, hard-rule/model conflict, compound triggers, multiple critical patients, NBO unavailability, and override/audit behavior. Twelve of these appear on the live board to keep the jury demonstration readable while the full set remains in automated tests.
+Twenty-eight deterministic fixtures cover ambiguous presentations, pediatric and geriatric states, no-history intake, missing and stale data, worsening vital signs, hard-rule/model conflict, compound triggers, multiple critical patients, NBO unavailability, and override/audit behavior. Twenty of these appear on the scrollable live board so the jury can verify the stated prototype minimum directly while the full set remains in automated tests.
 
 \section{Trajectory-Risk and Uncertainty Methodology}
 

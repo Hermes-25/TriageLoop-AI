@@ -37,6 +37,7 @@ export function ProductProvider({ children }: { children: React.ReactNode }) {
   const [pending, startTransition] = useTransition();
 
   const refresh = useCallback(async () => {
+    const loadingStartedAt = performance.now();
     setError(null);
     try {
       const next = await productApi.state();
@@ -47,6 +48,10 @@ export function ProductProvider({ children }: { children: React.ReactNode }) {
       setDegraded(true);
       setError(reason instanceof Error ? reason.message : "Unable to load the clinical board.");
     } finally {
+      const remainingDisplayTime = 520 - (performance.now() - loadingStartedAt);
+      if (remainingDisplayTime > 0) {
+        await new Promise((resolve) => window.setTimeout(resolve, remainingDisplayTime));
+      }
       setLoading(false);
     }
   }, []);

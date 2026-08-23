@@ -20,7 +20,7 @@ TriageLoop is now a working nurse-facing clinical deadline workspace rather than
 
 ### Working hero journey
 
-1. Start in baseline: 12 waiting patients and zero capacity conflicts.
+1. Start in baseline: 20 waiting patients and zero capacity conflicts.
 2. Apply the deterministic P-0009 deterioration event.
 3. Repeat vitals change from the prior observation; the four-horizon trajectory rises.
 4. The Action Window contracts, ETA exceeds it and Clinical Slack becomes negative.

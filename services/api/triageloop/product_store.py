@@ -22,6 +22,7 @@ from .schemas import Observation, ObservationQuality, ObservationSource, Patient
 
 IST = timezone(timedelta(hours=5, minutes=30))
 DEMO_TIME = datetime(2026, 8, 22, 10, 42, tzinfo=IST)
+DEMO_FIXTURE_VERSION = "20-case-v1"
 DEMO_CASE_IDS = (
     "P-0008",
     "P-0009",
@@ -35,8 +36,16 @@ DEMO_CASE_IDS = (
     "P-0021",
     "P-0006",
     "P-0014",
+    "P-0001",
+    "P-0002",
+    "P-0004",
+    "P-0005",
+    "P-0010",
+    "P-0011",
+    "P-0017",
+    "P-0023",
 )
-WAIT_MINUTES = (41, 36, 31, 28, 25, 22, 19, 17, 14, 11, 9, 7)
+WAIT_MINUTES = (41, 36, 31, 28, 25, 22, 19, 17, 14, 11, 9, 7, 34, 30, 26, 24, 32, 29, 18, 27)
 
 
 def _repo_root() -> Path:
@@ -98,7 +107,9 @@ class ProductStore:
                 """
             )
             count = connection.execute("SELECT COUNT(*) FROM patients").fetchone()[0]
-        if count == 0:
+            fixture_row = connection.execute("SELECT value FROM meta WHERE key='demo_fixture_version'").fetchone()
+            fixture_version = str(fixture_row["value"]) if fixture_row else None
+        if count == 0 or fixture_version != DEMO_FIXTURE_VERSION:
             self.reset()
 
     def _write_meta(self, key: str, value: str) -> None:
@@ -189,6 +200,7 @@ class ProductStore:
             connection.execute("INSERT INTO meta(key, value) VALUES('scenario', ?)", (scenario,))
             connection.execute("INSERT INTO meta(key, value) VALUES('site', 'regional')")
             connection.execute("INSERT INTO meta(key, value) VALUES('deterioration_applied', 'false')")
+            connection.execute("INSERT INTO meta(key, value) VALUES('demo_fixture_version', ?)", (DEMO_FIXTURE_VERSION,))
         self._append_audit(None, "system_fixture", "demo_reset", {"scenario": scenario, "patients": len(DEMO_CASE_IDS)})
         return self.state()
 

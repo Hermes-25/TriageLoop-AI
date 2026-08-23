@@ -62,7 +62,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-5705be09aff7",
+              "recommendation_id": "REC-1b2a2c7892e4",
               "patient_id": "P-0008",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "immediate_review",
@@ -195,7 +195,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-d9cf7c099e59",
+              "recommendation_id": "REC-20eac8028924",
               "patient_id": "P-0009",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "escalate_priority",
@@ -318,7 +318,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-f34fee868aff",
+              "recommendation_id": "REC-03b394e0097e",
               "patient_id": "P-0013",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "safe_mode_review",
@@ -437,7 +437,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-990a0772233c",
+              "recommendation_id": "REC-bc8cc80af38c",
               "patient_id": "P-0019",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "reassess",
@@ -552,7 +552,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-8dfe0a1e9c68",
+              "recommendation_id": "REC-0fa99035be14",
               "patient_id": "P-0026",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "escalate_priority",
@@ -660,7 +660,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-07d672a594df",
+              "recommendation_id": "REC-5df3647c2997",
               "patient_id": "P-0003",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "immediate_review",
@@ -770,7 +770,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-cda773e32340",
+              "recommendation_id": "REC-a09d7b00feff",
               "patient_id": "P-0007",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -883,7 +883,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-9ffbd4f37d63",
+              "recommendation_id": "REC-f87c4f25457c",
               "patient_id": "P-0012",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -1016,7 +1016,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-82d4e1060701",
+              "recommendation_id": "REC-b5fec9ed7f51",
               "patient_id": "P-0022",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -1127,7 +1127,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-e4c5f68564ac",
+              "recommendation_id": "REC-63f143968d5d",
               "patient_id": "P-0021",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -1242,7 +1242,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-d1467ca4441d",
+              "recommendation_id": "REC-0f5da3a570a0",
               "patient_id": "P-0006",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "escalate_priority",
@@ -1359,7 +1359,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-12e5d5eef7db",
+              "recommendation_id": "REC-aa25a3282e7f",
               "patient_id": "P-0014",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "safe_mode_review",
@@ -1423,13 +1423,976 @@
               }
             },
             "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0001",
+            "queue_position": 13,
+            "decision_state": null,
+            "age_years": 48.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "shortness of breath",
+            "reported_symptoms": [
+              "shortness of breath"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 34,
+            "latest_observation": {
+              "observation_id": "CUR-01-1",
+              "recorded_at": "2026-08-22T10:08:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 88.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.047668,
+              0.121569,
+              0.435893
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-6d6bc0b7b366",
+              "patient_id": "P-0001",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "immediate_review",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard",
+                  "hard_rule"
+                ]
+              },
+              "predicted_time_to_action_minutes": 0.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.047668,
+                "30": 0.121569,
+                "60": 0.435893
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "critical"
+                ],
+                "abstained": true,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": true,
+                "safe_mode_reasons": [
+                  "latest observation is 34.0 minutes old"
+                ],
+                "rule_hits": [
+                  "HARD_RED_FLAG",
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Immediate Review; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "oxygen saturation (88%) increased estimated urgency"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0002",
+            "queue_position": 14,
+            "decision_state": null,
+            "age_years": 54.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "mild chest discomfort",
+            "reported_symptoms": [
+              "mild chest discomfort"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 30,
+            "latest_observation": {
+              "observation_id": "CUR-02-1",
+              "recorded_at": "2026-08-22T10:12:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-b6109e578675",
+              "patient_id": "P-0002",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 0.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 0.0,
+                "expected_decision_value": 0.728,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0004",
+            "queue_position": 15,
+            "decision_state": null,
+            "age_years": 0.7,
+            "age_band": "Paediatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "vomiting and poor intake",
+            "reported_symptoms": [
+              "vomiting and poor intake"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 26,
+            "latest_observation": {
+              "observation_id": "CUR-04-1",
+              "recorded_at": "2026-08-22T10:16:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 65.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-fc54912880b4",
+              "patient_id": "P-0004",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "immediate_review",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard",
+                  "hard_rule"
+                ]
+              },
+              "predicted_time_to_action_minutes": 0.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": true,
+                "ood": false,
+                "data_quality_score": 0.75
+              },
+              "safety": {
+                "safe_mode": true,
+                "safe_mode_reasons": [
+                  "implausible or inconsistent values: blood_pressure_relation"
+                ],
+                "rule_hits": [
+                  "HARD_RED_FLAG"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Immediate Review; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0005",
+            "queue_position": 16,
+            "decision_state": null,
+            "age_years": 81.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "weakness",
+            "reported_symptoms": [],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 24,
+            "latest_observation": {
+              "observation_id": "CUR-05-1",
+              "recorded_at": "2026-08-22T10:18:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 14.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "confused"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.456692,
+              0.456692,
+              0.801602,
+              0.801602
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-725238435afb",
+              "patient_id": "P-0005",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 5.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 5.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.456692,
+                "15": 0.456692,
+                "30": 0.801602,
+                "60": 0.801602
+              },
+              "uncertainty": {
+                "state": "low",
+                "prediction_set": [
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "URGENT_REVIEW"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 5 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "observed confusion increased estimated urgency"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0010",
+            "queue_position": 17,
+            "decision_state": null,
+            "age_years": 67.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "weakness",
+            "reported_symptoms": [
+              "weakness"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 32,
+            "latest_observation": {
+              "observation_id": "CUR-10-2",
+              "recorded_at": "2026-08-22T10:35:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 94.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-10-1",
+              "recorded_at": "2026-08-22T10:10:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-e2d42b2be983",
+              "patient_id": "P-0010",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 0.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "WORSENING_TRAJECTORY",
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 0.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 0 minutes.",
+                "what_changed": [
+                  "systolic_bp_mmhg fell from 122 to 94"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0011",
+            "queue_position": 18,
+            "decision_state": null,
+            "age_years": 32.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "headache",
+            "reported_symptoms": [
+              "headache"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 29,
+            "latest_observation": {
+              "observation_id": "CUR-11-2",
+              "recorded_at": "2026-08-22T10:38:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 12.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-11-1",
+              "recorded_at": "2026-08-22T10:13:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-c651d6c98735",
+              "patient_id": "P-0011",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 1.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 1.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "URGENT_REVIEW",
+                  "WORSENING_TRAJECTORY"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 1.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 1 minutes.",
+                "what_changed": [
+                  "gcs fell from 15 to 12"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0017",
+            "queue_position": 19,
+            "decision_state": null,
+            "age_years": 69.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "fever",
+            "reported_symptoms": [
+              "fever"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 18,
+            "latest_observation": {
+              "observation_id": "CUR-17-1",
+              "recorded_at": "2026-08-22T10:24:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-8dac05cc85dc",
+              "patient_id": "P-0017",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "continue_monitored_wait",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 12.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 12.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 10.0,
+                "expected_decision_value": 0.728,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Continue Monitored Wait; recommended within 12 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0023",
+            "queue_position": 20,
+            "decision_state": null,
+            "age_years": 47.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "brief dizziness",
+            "reported_symptoms": [
+              "brief dizziness"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 27,
+            "latest_observation": {
+              "observation_id": "CUR-23-2",
+              "recorded_at": "2026-08-22T10:40:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.75,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-23-1",
+              "recorded_at": "2026-08-22T10:15:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-cd560d65122a",
+              "patient_id": "P-0023",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "reassess",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 3.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 3.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.75
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 3.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Reassess; recommended within 3 minutes.",
+                "what_changed": [
+                  "no material numeric change since the prior observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
           }
         ],
         "summary": {
-          "waiting": 12,
+          "waiting": 20,
           "capacity_conflicts": 0,
-          "safe_mode": 3,
-          "reassessment_due": 5
+          "safe_mode": 5,
+          "reassessment_due": 8
         },
         "capacity": {
           "state": "available",
@@ -1443,17 +2406,17 @@
       "audit": [
         {
           "sequence": 2,
-          "event_id": "EVT-64be4b8d1e12",
+          "event_id": "EVT-16807c02f12c",
           "patient_id": null,
           "created_at": "2026-08-22T10:42:00+05:30",
           "actor": "system_fixture",
           "event_type": "demo_reset",
           "payload": {
-            "patients": 12,
+            "patients": 20,
             "scenario": "baseline"
           },
           "previous_hash": null,
-          "event_hash": "ee7cd8aff7f77232a29b3ce3c6bdf12e28e14d93ea0d6c0a72c1b2a14825d39c"
+          "event_hash": "ae1902a61dbb2da9142e5763f6d310f879c04328deba4aa7e14a4caf5cddac1c"
         }
       ]
     },
@@ -1517,7 +2480,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-5705be09aff7",
+              "recommendation_id": "REC-1b2a2c7892e4",
               "patient_id": "P-0008",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "immediate_review",
@@ -1601,7 +2564,7 @@
             "clinician_level": 3,
             "wait_minutes": 36,
             "latest_observation": {
-              "observation_id": "OBS-09a099e2ad",
+              "observation_id": "OBS-db2cd55f78",
               "recorded_at": "2026-08-22T10:42:00+05:30",
               "source": "reassessment",
               "values": {
@@ -1650,7 +2613,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-69102fdd0c04",
+              "recommendation_id": "REC-4448cd2d2f65",
               "patient_id": "P-0009",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "immediate_review",
@@ -1770,7 +2733,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-f34fee868aff",
+              "recommendation_id": "REC-03b394e0097e",
               "patient_id": "P-0013",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "safe_mode_review",
@@ -1889,7 +2852,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-990a0772233c",
+              "recommendation_id": "REC-bc8cc80af38c",
               "patient_id": "P-0019",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "reassess",
@@ -2004,7 +2967,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-8dfe0a1e9c68",
+              "recommendation_id": "REC-0fa99035be14",
               "patient_id": "P-0026",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "escalate_priority",
@@ -2112,7 +3075,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-07d672a594df",
+              "recommendation_id": "REC-5df3647c2997",
               "patient_id": "P-0003",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "immediate_review",
@@ -2222,7 +3185,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-cda773e32340",
+              "recommendation_id": "REC-a09d7b00feff",
               "patient_id": "P-0007",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -2335,7 +3298,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-9ffbd4f37d63",
+              "recommendation_id": "REC-f87c4f25457c",
               "patient_id": "P-0012",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -2468,7 +3431,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-82d4e1060701",
+              "recommendation_id": "REC-b5fec9ed7f51",
               "patient_id": "P-0022",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -2579,7 +3542,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-e4c5f68564ac",
+              "recommendation_id": "REC-63f143968d5d",
               "patient_id": "P-0021",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -2694,7 +3657,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-d1467ca4441d",
+              "recommendation_id": "REC-0f5da3a570a0",
               "patient_id": "P-0006",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "escalate_priority",
@@ -2811,7 +3774,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-12e5d5eef7db",
+              "recommendation_id": "REC-aa25a3282e7f",
               "patient_id": "P-0014",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "safe_mode_review",
@@ -2875,13 +3838,976 @@
               }
             },
             "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0001",
+            "queue_position": 13,
+            "decision_state": null,
+            "age_years": 48.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "shortness of breath",
+            "reported_symptoms": [
+              "shortness of breath"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 34,
+            "latest_observation": {
+              "observation_id": "CUR-01-1",
+              "recorded_at": "2026-08-22T10:08:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 88.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.047668,
+              0.121569,
+              0.435893
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-6d6bc0b7b366",
+              "patient_id": "P-0001",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "immediate_review",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard",
+                  "hard_rule"
+                ]
+              },
+              "predicted_time_to_action_minutes": 0.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.047668,
+                "30": 0.121569,
+                "60": 0.435893
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "critical"
+                ],
+                "abstained": true,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": true,
+                "safe_mode_reasons": [
+                  "latest observation is 34.0 minutes old"
+                ],
+                "rule_hits": [
+                  "HARD_RED_FLAG",
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Immediate Review; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "oxygen saturation (88%) increased estimated urgency"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0002",
+            "queue_position": 14,
+            "decision_state": null,
+            "age_years": 54.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "mild chest discomfort",
+            "reported_symptoms": [
+              "mild chest discomfort"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 30,
+            "latest_observation": {
+              "observation_id": "CUR-02-1",
+              "recorded_at": "2026-08-22T10:12:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-b6109e578675",
+              "patient_id": "P-0002",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 0.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 0.0,
+                "expected_decision_value": 0.728,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0004",
+            "queue_position": 15,
+            "decision_state": null,
+            "age_years": 0.7,
+            "age_band": "Paediatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "vomiting and poor intake",
+            "reported_symptoms": [
+              "vomiting and poor intake"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 26,
+            "latest_observation": {
+              "observation_id": "CUR-04-1",
+              "recorded_at": "2026-08-22T10:16:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 65.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-fc54912880b4",
+              "patient_id": "P-0004",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "immediate_review",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard",
+                  "hard_rule"
+                ]
+              },
+              "predicted_time_to_action_minutes": 0.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": true,
+                "ood": false,
+                "data_quality_score": 0.75
+              },
+              "safety": {
+                "safe_mode": true,
+                "safe_mode_reasons": [
+                  "implausible or inconsistent values: blood_pressure_relation"
+                ],
+                "rule_hits": [
+                  "HARD_RED_FLAG"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Immediate Review; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0005",
+            "queue_position": 16,
+            "decision_state": null,
+            "age_years": 81.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "weakness",
+            "reported_symptoms": [],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 24,
+            "latest_observation": {
+              "observation_id": "CUR-05-1",
+              "recorded_at": "2026-08-22T10:18:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 14.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "confused"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.456692,
+              0.456692,
+              0.801602,
+              0.801602
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-725238435afb",
+              "patient_id": "P-0005",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 5.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 5.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.456692,
+                "15": 0.456692,
+                "30": 0.801602,
+                "60": 0.801602
+              },
+              "uncertainty": {
+                "state": "low",
+                "prediction_set": [
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "URGENT_REVIEW"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 5 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "observed confusion increased estimated urgency"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0010",
+            "queue_position": 17,
+            "decision_state": null,
+            "age_years": 67.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "weakness",
+            "reported_symptoms": [
+              "weakness"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 32,
+            "latest_observation": {
+              "observation_id": "CUR-10-2",
+              "recorded_at": "2026-08-22T10:35:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 94.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-10-1",
+              "recorded_at": "2026-08-22T10:10:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-e2d42b2be983",
+              "patient_id": "P-0010",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 0.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "WORSENING_TRAJECTORY",
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 0.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 0 minutes.",
+                "what_changed": [
+                  "systolic_bp_mmhg fell from 122 to 94"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0011",
+            "queue_position": 18,
+            "decision_state": null,
+            "age_years": 32.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "headache",
+            "reported_symptoms": [
+              "headache"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 29,
+            "latest_observation": {
+              "observation_id": "CUR-11-2",
+              "recorded_at": "2026-08-22T10:38:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 12.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-11-1",
+              "recorded_at": "2026-08-22T10:13:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-c651d6c98735",
+              "patient_id": "P-0011",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 1.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 1.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "URGENT_REVIEW",
+                  "WORSENING_TRAJECTORY"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 1.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 1 minutes.",
+                "what_changed": [
+                  "gcs fell from 15 to 12"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0017",
+            "queue_position": 19,
+            "decision_state": null,
+            "age_years": 69.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "fever",
+            "reported_symptoms": [
+              "fever"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 18,
+            "latest_observation": {
+              "observation_id": "CUR-17-1",
+              "recorded_at": "2026-08-22T10:24:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-8dac05cc85dc",
+              "patient_id": "P-0017",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "continue_monitored_wait",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 12.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 12.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 10.0,
+                "expected_decision_value": 0.728,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Continue Monitored Wait; recommended within 12 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0023",
+            "queue_position": 20,
+            "decision_state": null,
+            "age_years": 47.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "brief dizziness",
+            "reported_symptoms": [
+              "brief dizziness"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 27,
+            "latest_observation": {
+              "observation_id": "CUR-23-2",
+              "recorded_at": "2026-08-22T10:40:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.75,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-23-1",
+              "recorded_at": "2026-08-22T10:15:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-cd560d65122a",
+              "patient_id": "P-0023",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "reassess",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 3.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 3.0,
+              "clinical_slack_minutes": 0.0,
+              "capacity_conflict": false,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.75
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 3.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Reassess; recommended within 3 minutes.",
+                "what_changed": [
+                  "no material numeric change since the prior observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
           }
         ],
         "summary": {
-          "waiting": 12,
+          "waiting": 20,
           "capacity_conflicts": 1,
-          "safe_mode": 3,
-          "reassessment_due": 6
+          "safe_mode": 5,
+          "reassessment_due": 9
         },
         "capacity": {
           "state": "constrained",
@@ -2895,7 +4821,7 @@
       "audit": [
         {
           "sequence": 4,
-          "event_id": "EVT-b4a3a79b21cf",
+          "event_id": "EVT-c0e93c993124",
           "patient_id": "P-0009",
           "created_at": "2026-08-22T10:42:00+05:30",
           "actor": "system_fixture",
@@ -2905,18 +4831,18 @@
             "clinical_slack_minutes": -8.0,
             "new_position": 2
           },
-          "previous_hash": "6dcee28192dc040e3f117400e2d1005ccca4f1a53145e60054c45e624baa978c",
-          "event_hash": "71f3c72774d5fe19f6d428eb6f3110783ded2c5d9d8b3cdf62600bd480d20973"
+          "previous_hash": "5d6238101ee0f60d74638d81f6761bbff84f910996c42244f1a939f43c03fa09",
+          "event_hash": "c921c40d20e05b4e26c3612e98915daf719ccdba1089daf7aae8bf100894d6c7"
         },
         {
           "sequence": 3,
-          "event_id": "EVT-c006a3fd1b8a",
+          "event_id": "EVT-899dd3afcf06",
           "patient_id": "P-0009",
           "created_at": "2026-08-22T10:42:00+05:30",
           "actor": "nurse",
           "event_type": "observation_recorded",
           "payload": {
-            "recommendation_id": "REC-69102fdd0c04",
+            "recommendation_id": "REC-4448cd2d2f65",
             "source": "reassessment",
             "what_changed": [
               "SpO2 fell to 88%",
@@ -2924,22 +4850,22 @@
               "heart rate rose to 106 bpm"
             ]
           },
-          "previous_hash": "ee7cd8aff7f77232a29b3ce3c6bdf12e28e14d93ea0d6c0a72c1b2a14825d39c",
-          "event_hash": "6dcee28192dc040e3f117400e2d1005ccca4f1a53145e60054c45e624baa978c"
+          "previous_hash": "ae1902a61dbb2da9142e5763f6d310f879c04328deba4aa7e14a4caf5cddac1c",
+          "event_hash": "5d6238101ee0f60d74638d81f6761bbff84f910996c42244f1a939f43c03fa09"
         },
         {
           "sequence": 2,
-          "event_id": "EVT-64be4b8d1e12",
+          "event_id": "EVT-16807c02f12c",
           "patient_id": null,
           "created_at": "2026-08-22T10:42:00+05:30",
           "actor": "system_fixture",
           "event_type": "demo_reset",
           "payload": {
-            "patients": 12,
+            "patients": 20,
             "scenario": "baseline"
           },
           "previous_hash": null,
-          "event_hash": "ee7cd8aff7f77232a29b3ce3c6bdf12e28e14d93ea0d6c0a72c1b2a14825d39c"
+          "event_hash": "ae1902a61dbb2da9142e5763f6d310f879c04328deba4aa7e14a4caf5cddac1c"
         }
       ]
     },
@@ -3003,7 +4929,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-ee5bee73b23d",
+              "recommendation_id": "REC-8958b7414cf4",
               "patient_id": "P-0008",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "immediate_review",
@@ -3136,7 +5062,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-d87b6b96bdc7",
+              "recommendation_id": "REC-722f26358d97",
               "patient_id": "P-0009",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "escalate_priority",
@@ -3259,7 +5185,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-de9c5c3d90ab",
+              "recommendation_id": "REC-a14c2dfe53fd",
               "patient_id": "P-0013",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "safe_mode_review",
@@ -3378,7 +5304,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-3b1563be2385",
+              "recommendation_id": "REC-8c5498974a5b",
               "patient_id": "P-0019",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "reassess",
@@ -3493,7 +5419,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-9f50f793505f",
+              "recommendation_id": "REC-cecaccca97a1",
               "patient_id": "P-0026",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "escalate_priority",
@@ -3601,7 +5527,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-54899d03db18",
+              "recommendation_id": "REC-5d15e3134549",
               "patient_id": "P-0003",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "immediate_review",
@@ -3711,7 +5637,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-d4dd3e1ea6c1",
+              "recommendation_id": "REC-d616f0aa172d",
               "patient_id": "P-0007",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -3824,7 +5750,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-c681631feb74",
+              "recommendation_id": "REC-d6c2d6904cd9",
               "patient_id": "P-0012",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -3957,7 +5883,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-2e0d918ae56c",
+              "recommendation_id": "REC-f7817010e590",
               "patient_id": "P-0022",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -4068,7 +5994,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-26c57f94de8a",
+              "recommendation_id": "REC-636616e83171",
               "patient_id": "P-0021",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -4183,7 +6109,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-57b74b0ebffb",
+              "recommendation_id": "REC-383dfc3f424a",
               "patient_id": "P-0006",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "escalate_priority",
@@ -4300,7 +6226,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-ec4afbff2ab8",
+              "recommendation_id": "REC-593de8b0692c",
               "patient_id": "P-0014",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "safe_mode_review",
@@ -4364,19 +6290,982 @@
               }
             },
             "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0001",
+            "queue_position": 13,
+            "decision_state": null,
+            "age_years": 48.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "shortness of breath",
+            "reported_symptoms": [
+              "shortness of breath"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 34,
+            "latest_observation": {
+              "observation_id": "CUR-01-1",
+              "recorded_at": "2026-08-22T10:08:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 88.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.047668,
+              0.121569,
+              0.435893
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-32256f4c57f5",
+              "patient_id": "P-0001",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "immediate_review",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard",
+                  "hard_rule"
+                ]
+              },
+              "predicted_time_to_action_minutes": 55.0,
+              "clinical_slack_minutes": -55.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.047668,
+                "30": 0.121569,
+                "60": 0.435893
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "critical"
+                ],
+                "abstained": true,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": true,
+                "safe_mode_reasons": [
+                  "latest observation is 34.0 minutes old"
+                ],
+                "rule_hits": [
+                  "HARD_RED_FLAG",
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Immediate Review; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "oxygen saturation (88%) increased estimated urgency"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0002",
+            "queue_position": 14,
+            "decision_state": null,
+            "age_years": 54.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "mild chest discomfort",
+            "reported_symptoms": [
+              "mild chest discomfort"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 30,
+            "latest_observation": {
+              "observation_id": "CUR-02-1",
+              "recorded_at": "2026-08-22T10:12:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-d811eb1c1518",
+              "patient_id": "P-0002",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 61.0,
+              "clinical_slack_minutes": -61.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 0.0,
+                "expected_decision_value": 0.728,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0004",
+            "queue_position": 15,
+            "decision_state": null,
+            "age_years": 0.7,
+            "age_band": "Paediatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "vomiting and poor intake",
+            "reported_symptoms": [
+              "vomiting and poor intake"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 26,
+            "latest_observation": {
+              "observation_id": "CUR-04-1",
+              "recorded_at": "2026-08-22T10:16:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 65.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-1800e1932969",
+              "patient_id": "P-0004",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "immediate_review",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard",
+                  "hard_rule"
+                ]
+              },
+              "predicted_time_to_action_minutes": 67.0,
+              "clinical_slack_minutes": -67.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": true,
+                "ood": false,
+                "data_quality_score": 0.75
+              },
+              "safety": {
+                "safe_mode": true,
+                "safe_mode_reasons": [
+                  "implausible or inconsistent values: blood_pressure_relation"
+                ],
+                "rule_hits": [
+                  "HARD_RED_FLAG"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Immediate Review; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0005",
+            "queue_position": 16,
+            "decision_state": null,
+            "age_years": 81.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "weakness",
+            "reported_symptoms": [],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 24,
+            "latest_observation": {
+              "observation_id": "CUR-05-1",
+              "recorded_at": "2026-08-22T10:18:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 14.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "confused"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.456692,
+              0.456692,
+              0.801602,
+              0.801602
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-45f725a339f2",
+              "patient_id": "P-0005",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 5.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 73.0,
+              "clinical_slack_minutes": -68.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.456692,
+                "15": 0.456692,
+                "30": 0.801602,
+                "60": 0.801602
+              },
+              "uncertainty": {
+                "state": "low",
+                "prediction_set": [
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "URGENT_REVIEW"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 5 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "observed confusion increased estimated urgency"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0010",
+            "queue_position": 17,
+            "decision_state": null,
+            "age_years": 67.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "weakness",
+            "reported_symptoms": [
+              "weakness"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 32,
+            "latest_observation": {
+              "observation_id": "CUR-10-2",
+              "recorded_at": "2026-08-22T10:35:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 94.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-10-1",
+              "recorded_at": "2026-08-22T10:10:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-f1009999c0e4",
+              "patient_id": "P-0010",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 79.0,
+              "clinical_slack_minutes": -79.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "WORSENING_TRAJECTORY",
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 0.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 0 minutes.",
+                "what_changed": [
+                  "systolic_bp_mmhg fell from 122 to 94"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0011",
+            "queue_position": 18,
+            "decision_state": null,
+            "age_years": 32.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "headache",
+            "reported_symptoms": [
+              "headache"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 29,
+            "latest_observation": {
+              "observation_id": "CUR-11-2",
+              "recorded_at": "2026-08-22T10:38:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 12.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-11-1",
+              "recorded_at": "2026-08-22T10:13:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-489d0d26b681",
+              "patient_id": "P-0011",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 1.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 85.0,
+              "clinical_slack_minutes": -84.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "URGENT_REVIEW",
+                  "WORSENING_TRAJECTORY"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 1.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 1 minutes.",
+                "what_changed": [
+                  "gcs fell from 15 to 12"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0017",
+            "queue_position": 19,
+            "decision_state": null,
+            "age_years": 69.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "fever",
+            "reported_symptoms": [
+              "fever"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 18,
+            "latest_observation": {
+              "observation_id": "CUR-17-1",
+              "recorded_at": "2026-08-22T10:24:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-d7ba9cacfc70",
+              "patient_id": "P-0017",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "continue_monitored_wait",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 12.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 91.0,
+              "clinical_slack_minutes": -79.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 10.0,
+                "expected_decision_value": 0.728,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Continue Monitored Wait; recommended within 12 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0023",
+            "queue_position": 20,
+            "decision_state": null,
+            "age_years": 47.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "brief dizziness",
+            "reported_symptoms": [
+              "brief dizziness"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 27,
+            "latest_observation": {
+              "observation_id": "CUR-23-2",
+              "recorded_at": "2026-08-22T10:40:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.75,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-23-1",
+              "recorded_at": "2026-08-22T10:15:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-6c1a2a3c653c",
+              "patient_id": "P-0023",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "reassess",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 3.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 97.0,
+              "clinical_slack_minutes": -94.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.75
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 3.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Reassess; recommended within 3 minutes.",
+                "what_changed": [
+                  "no material numeric change since the prior observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
           }
         ],
         "summary": {
-          "waiting": 12,
-          "capacity_conflicts": 11,
-          "safe_mode": 3,
-          "reassessment_due": 5
+          "waiting": 20,
+          "capacity_conflicts": 19,
+          "safe_mode": 5,
+          "reassessment_due": 8
         },
         "capacity": {
           "state": "constrained",
           "clinician_utilization": 0.85,
           "reassessment_utilization": 0.54,
-          "message": "11 patient deadlines are infeasible at current capacity. Escalate operational support."
+          "message": "19 patient deadlines are infeasible at current capacity. Escalate operational support."
         },
         "deterioration_applied": false,
         "prototype_notice": "Synthetic decision-support prototype \u2014 not validated for clinical use."
@@ -4384,7 +7273,7 @@
       "audit": [
         {
           "sequence": 6,
-          "event_id": "EVT-d685434936fc",
+          "event_id": "EVT-f3953d2b34ef",
           "patient_id": null,
           "created_at": "2026-08-22T10:42:00+05:30",
           "actor": "charge_nurse",
@@ -4392,22 +7281,22 @@
           "payload": {
             "scenario": "surge_3x"
           },
-          "previous_hash": "203b9e60a32bb8796328222cb0e77f0e889921f1bb10d241e7eea79e4f504d33",
-          "event_hash": "1907af47e387d8bb7038f918c79073d352c5cefdd0c4b83e0685fff6eb681f6f"
+          "previous_hash": "cc4dbb32aa4e3abeea55f70963c2eaf1d28a40b27bdda1b8df2f6a4af491975d",
+          "event_hash": "203c4f7eb81d39f694691e0d45bfcf6a163b393a9aecb43e404dae48d958a226"
         },
         {
           "sequence": 5,
-          "event_id": "EVT-7a5529d4f0fe",
+          "event_id": "EVT-2a66c9b85387",
           "patient_id": null,
           "created_at": "2026-08-22T10:42:00+05:30",
           "actor": "system_fixture",
           "event_type": "demo_reset",
           "payload": {
-            "patients": 12,
+            "patients": 20,
             "scenario": "baseline"
           },
           "previous_hash": null,
-          "event_hash": "203b9e60a32bb8796328222cb0e77f0e889921f1bb10d241e7eea79e4f504d33"
+          "event_hash": "cc4dbb32aa4e3abeea55f70963c2eaf1d28a40b27bdda1b8df2f6a4af491975d"
         }
       ]
     },
@@ -4471,7 +7360,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-ee5bee73b23d",
+              "recommendation_id": "REC-8958b7414cf4",
               "patient_id": "P-0008",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "immediate_review",
@@ -4555,7 +7444,7 @@
             "clinician_level": 3,
             "wait_minutes": 36,
             "latest_observation": {
-              "observation_id": "OBS-f540849acd",
+              "observation_id": "OBS-0d99b0ffd6",
               "recorded_at": "2026-08-22T10:42:00+05:30",
               "source": "reassessment",
               "values": {
@@ -4604,7 +7493,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-275db759b2e5",
+              "recommendation_id": "REC-b9c9b5698029",
               "patient_id": "P-0009",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "immediate_review",
@@ -4724,7 +7613,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-de9c5c3d90ab",
+              "recommendation_id": "REC-a14c2dfe53fd",
               "patient_id": "P-0013",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "safe_mode_review",
@@ -4843,7 +7732,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-3b1563be2385",
+              "recommendation_id": "REC-8c5498974a5b",
               "patient_id": "P-0019",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "reassess",
@@ -4958,7 +7847,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-9f50f793505f",
+              "recommendation_id": "REC-cecaccca97a1",
               "patient_id": "P-0026",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "escalate_priority",
@@ -5066,7 +7955,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-54899d03db18",
+              "recommendation_id": "REC-5d15e3134549",
               "patient_id": "P-0003",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "immediate_review",
@@ -5176,7 +8065,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-d4dd3e1ea6c1",
+              "recommendation_id": "REC-d616f0aa172d",
               "patient_id": "P-0007",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -5289,7 +8178,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-c681631feb74",
+              "recommendation_id": "REC-d6c2d6904cd9",
               "patient_id": "P-0012",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -5422,7 +8311,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-2e0d918ae56c",
+              "recommendation_id": "REC-f7817010e590",
               "patient_id": "P-0022",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -5533,7 +8422,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-26c57f94de8a",
+              "recommendation_id": "REC-636616e83171",
               "patient_id": "P-0021",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "continue_monitored_wait",
@@ -5648,7 +8537,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-57b74b0ebffb",
+              "recommendation_id": "REC-383dfc3f424a",
               "patient_id": "P-0006",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "escalate_priority",
@@ -5765,7 +8654,7 @@
             ],
             "recommendation": {
               "schema_version": "1.0.0",
-              "recommendation_id": "REC-ec4afbff2ab8",
+              "recommendation_id": "REC-593de8b0692c",
               "patient_id": "P-0014",
               "generated_at": "2026-08-22T10:42:00+05:30",
               "recommended_action": "safe_mode_review",
@@ -5829,19 +8718,982 @@
               }
             },
             "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0001",
+            "queue_position": 13,
+            "decision_state": null,
+            "age_years": 48.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "shortness of breath",
+            "reported_symptoms": [
+              "shortness of breath"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 34,
+            "latest_observation": {
+              "observation_id": "CUR-01-1",
+              "recorded_at": "2026-08-22T10:08:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 88.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.047668,
+              0.121569,
+              0.435893
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-32256f4c57f5",
+              "patient_id": "P-0001",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "immediate_review",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard",
+                  "hard_rule"
+                ]
+              },
+              "predicted_time_to_action_minutes": 55.0,
+              "clinical_slack_minutes": -55.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.047668,
+                "30": 0.121569,
+                "60": 0.435893
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "critical"
+                ],
+                "abstained": true,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": true,
+                "safe_mode_reasons": [
+                  "latest observation is 34.0 minutes old"
+                ],
+                "rule_hits": [
+                  "HARD_RED_FLAG",
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Immediate Review; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "oxygen saturation (88%) increased estimated urgency"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0002",
+            "queue_position": 14,
+            "decision_state": null,
+            "age_years": 54.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "mild chest discomfort",
+            "reported_symptoms": [
+              "mild chest discomfort"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 30,
+            "latest_observation": {
+              "observation_id": "CUR-02-1",
+              "recorded_at": "2026-08-22T10:12:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-d811eb1c1518",
+              "patient_id": "P-0002",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 61.0,
+              "clinical_slack_minutes": -61.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 0.0,
+                "expected_decision_value": 0.728,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0004",
+            "queue_position": 15,
+            "decision_state": null,
+            "age_years": 0.7,
+            "age_band": "Paediatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "vomiting and poor intake",
+            "reported_symptoms": [
+              "vomiting and poor intake"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 26,
+            "latest_observation": {
+              "observation_id": "CUR-04-1",
+              "recorded_at": "2026-08-22T10:16:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 65.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-1800e1932969",
+              "patient_id": "P-0004",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "immediate_review",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard",
+                  "hard_rule"
+                ]
+              },
+              "predicted_time_to_action_minutes": 67.0,
+              "clinical_slack_minutes": -67.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": true,
+                "ood": false,
+                "data_quality_score": 0.75
+              },
+              "safety": {
+                "safe_mode": true,
+                "safe_mode_reasons": [
+                  "implausible or inconsistent values: blood_pressure_relation"
+                ],
+                "rule_hits": [
+                  "HARD_RED_FLAG"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Immediate Review; recommended within 0 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0005",
+            "queue_position": 16,
+            "decision_state": null,
+            "age_years": 81.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "weakness",
+            "reported_symptoms": [],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 24,
+            "latest_observation": {
+              "observation_id": "CUR-05-1",
+              "recorded_at": "2026-08-22T10:18:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 14.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "confused"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.456692,
+              0.456692,
+              0.801602,
+              0.801602
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-45f725a339f2",
+              "patient_id": "P-0005",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 5.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 73.0,
+              "clinical_slack_minutes": -68.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.456692,
+                "15": 0.456692,
+                "30": 0.801602,
+                "60": 0.801602
+              },
+              "uncertainty": {
+                "state": "low",
+                "prediction_set": [
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "URGENT_REVIEW"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": null,
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 5 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "observed confusion increased estimated urgency"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0010",
+            "queue_position": 17,
+            "decision_state": null,
+            "age_years": 67.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "weakness",
+            "reported_symptoms": [
+              "weakness"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 32,
+            "latest_observation": {
+              "observation_id": "CUR-10-2",
+              "recorded_at": "2026-08-22T10:35:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 94.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-10-1",
+              "recorded_at": "2026-08-22T10:10:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-f1009999c0e4",
+              "patient_id": "P-0010",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 0.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 79.0,
+              "clinical_slack_minutes": -79.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "WORSENING_TRAJECTORY",
+                  "WAIT_THRESHOLD"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 0.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 0 minutes.",
+                "what_changed": [
+                  "systolic_bp_mmhg fell from 122 to 94"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0011",
+            "queue_position": 18,
+            "decision_state": null,
+            "age_years": 32.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "headache",
+            "reported_symptoms": [
+              "headache"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 29,
+            "latest_observation": {
+              "observation_id": "CUR-11-2",
+              "recorded_at": "2026-08-22T10:38:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 12.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-11-1",
+              "recorded_at": "2026-08-22T10:13:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-489d0d26b681",
+              "patient_id": "P-0011",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "escalate_priority",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 1.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 85.0,
+              "clinical_slack_minutes": -84.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [
+                  "URGENT_REVIEW",
+                  "WORSENING_TRAJECTORY"
+                ],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 1.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Escalate Priority; recommended within 1 minutes.",
+                "what_changed": [
+                  "gcs fell from 15 to 12"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0017",
+            "queue_position": 19,
+            "decision_state": null,
+            "age_years": 69.0,
+            "age_band": "Geriatric",
+            "sex_at_birth": "male",
+            "chief_complaint": "fever",
+            "reported_symptoms": [
+              "fever"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [
+                "hypertension"
+              ],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 18,
+            "latest_observation": {
+              "observation_id": "CUR-17-1",
+              "recorded_at": "2026-08-22T10:24:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.95,
+                "flags": []
+              }
+            },
+            "prior_observation": null,
+            "trajectory": [
+              0.002231,
+              0.017933,
+              0.067314,
+              0.122539
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-d7ba9cacfc70",
+              "patient_id": "P-0017",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "continue_monitored_wait",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 12.0,
+                "basis": [
+                  "category_bound",
+                  "calibrated_hazard"
+                ]
+              },
+              "predicted_time_to_action_minutes": 91.0,
+              "clinical_slack_minutes": -79.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.002231,
+                "15": 0.017933,
+                "30": 0.067314,
+                "60": 0.122539
+              },
+              "uncertainty": {
+                "state": "high",
+                "prediction_set": [
+                  "non_critical",
+                  "critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.95
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 10.0,
+                "expected_decision_value": 0.728,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Continue Monitored Wait; recommended within 12 minutes.",
+                "what_changed": [
+                  "first recorded observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
+          },
+          {
+            "patient_id": "P-0023",
+            "queue_position": 20,
+            "decision_state": null,
+            "age_years": 47.0,
+            "age_band": "Adult",
+            "sex_at_birth": "male",
+            "chief_complaint": "brief dizziness",
+            "reported_symptoms": [
+              "brief dizziness"
+            ],
+            "observed_cues": [],
+            "history_status": "available",
+            "history": {
+              "conditions": [],
+              "medications": [],
+              "allergies": [],
+              "frailty_score": null
+            },
+            "clinician_level": 3,
+            "wait_minutes": 27,
+            "latest_observation": {
+              "observation_id": "CUR-23-2",
+              "recorded_at": "2026-08-22T10:40:00+05:30",
+              "source": "reassessment",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 0.75,
+                "flags": []
+              }
+            },
+            "prior_observation": {
+              "observation_id": "CUR-23-1",
+              "recorded_at": "2026-08-22T10:15:00+05:30",
+              "source": "triage",
+              "values": {
+                "heart_rate_bpm": 88.0,
+                "respiratory_rate_per_min": 18.0,
+                "spo2_percent": 98.0,
+                "systolic_bp_mmhg": 122.0,
+                "diastolic_bp_mmhg": 78.0,
+                "temperature_c": 37.0,
+                "gcs": 15.0,
+                "pain_score_0_10": 4.0,
+                "mental_status": "alert"
+              },
+              "quality": {
+                "completeness": 1.0,
+                "reliability": 1.0,
+                "flags": []
+              }
+            },
+            "trajectory": [
+              0.001885,
+              0.010555,
+              0.018649,
+              0.024261
+            ],
+            "recommendation": {
+              "schema_version": "1.0.0",
+              "recommendation_id": "REC-6c1a2a3c653c",
+              "patient_id": "P-0023",
+              "generated_at": "2026-08-22T10:42:00+05:30",
+              "recommended_action": "reassess",
+              "action_window": {
+                "minimum_minutes": 0.0,
+                "maximum_minutes": 3.0,
+                "basis": [
+                  "category_bound"
+                ]
+              },
+              "predicted_time_to_action_minutes": 97.0,
+              "clinical_slack_minutes": -94.0,
+              "capacity_conflict": true,
+              "risk_by_horizon": {
+                "5": 0.001885,
+                "15": 0.010555,
+                "30": 0.018649,
+                "60": 0.024261
+              },
+              "uncertainty": {
+                "state": "moderate",
+                "prediction_set": [
+                  "non_critical"
+                ],
+                "abstained": false,
+                "ood": false,
+                "data_quality_score": 0.75
+              },
+              "safety": {
+                "safe_mode": false,
+                "safe_mode_reasons": [],
+                "rule_hits": [],
+                "autonomous_downgrade_permitted": false
+              },
+              "next_best_observation": {
+                "observation_code": "repeat_spo2",
+                "label": "Repeat SpO2",
+                "recommended_within_minutes": 3.0,
+                "expected_decision_value": 0.653,
+                "burden": "low"
+              },
+              "explanation": {
+                "summary": "Reassess; recommended within 3 minutes.",
+                "what_changed": [
+                  "no material numeric change since the prior observation"
+                ],
+                "top_factors": [
+                  "no single observed model driver dominated; rules and category bounds govern the action"
+                ]
+              },
+              "component_versions": {
+                "model": "2.0.0",
+                "rules": "1.0.0",
+                "features": "1.0.0",
+                "contract": "1.0.0"
+              }
+            },
+            "updated_at": "2026-08-22T10:42:00+05:30"
           }
         ],
         "summary": {
-          "waiting": 12,
-          "capacity_conflicts": 11,
-          "safe_mode": 3,
-          "reassessment_due": 6
+          "waiting": 20,
+          "capacity_conflicts": 19,
+          "safe_mode": 5,
+          "reassessment_due": 9
         },
         "capacity": {
           "state": "constrained",
           "clinician_utilization": 0.85,
           "reassessment_utilization": 0.54,
-          "message": "11 patient deadlines are infeasible at current capacity. Escalate operational support."
+          "message": "19 patient deadlines are infeasible at current capacity. Escalate operational support."
         },
         "deterioration_applied": true,
         "prototype_notice": "Synthetic decision-support prototype \u2014 not validated for clinical use."
@@ -5849,7 +9701,7 @@
       "audit": [
         {
           "sequence": 8,
-          "event_id": "EVT-5d714ff7932e",
+          "event_id": "EVT-fce5a093939e",
           "patient_id": "P-0009",
           "created_at": "2026-08-22T10:42:00+05:30",
           "actor": "system_fixture",
@@ -5859,18 +9711,18 @@
             "clinical_slack_minutes": -8.0,
             "new_position": 2
           },
-          "previous_hash": "d673f5fed830c413d6c53becc0a6c71925b250b57c024ae6df2fc62093b0398a",
-          "event_hash": "ef8480cbf54390d25d8c299027f7986bfe8c8441687fdd99459282a353bd3274"
+          "previous_hash": "c28817bf2a85a1c9a92483d1bf6ade6431114a7d78cad5874608bc75fac7c537",
+          "event_hash": "e417251eebddea8bb460201799f4a0e3212f51222302857e940dfa35d19b01cb"
         },
         {
           "sequence": 7,
-          "event_id": "EVT-90264e71cc74",
+          "event_id": "EVT-3ecc0718f708",
           "patient_id": "P-0009",
           "created_at": "2026-08-22T10:42:00+05:30",
           "actor": "nurse",
           "event_type": "observation_recorded",
           "payload": {
-            "recommendation_id": "REC-275db759b2e5",
+            "recommendation_id": "REC-b9c9b5698029",
             "source": "reassessment",
             "what_changed": [
               "SpO2 fell to 88%",
@@ -5878,12 +9730,12 @@
               "heart rate rose to 106 bpm"
             ]
           },
-          "previous_hash": "1907af47e387d8bb7038f918c79073d352c5cefdd0c4b83e0685fff6eb681f6f",
-          "event_hash": "d673f5fed830c413d6c53becc0a6c71925b250b57c024ae6df2fc62093b0398a"
+          "previous_hash": "203c4f7eb81d39f694691e0d45bfcf6a163b393a9aecb43e404dae48d958a226",
+          "event_hash": "c28817bf2a85a1c9a92483d1bf6ade6431114a7d78cad5874608bc75fac7c537"
         },
         {
           "sequence": 6,
-          "event_id": "EVT-d685434936fc",
+          "event_id": "EVT-f3953d2b34ef",
           "patient_id": null,
           "created_at": "2026-08-22T10:42:00+05:30",
           "actor": "charge_nurse",
@@ -5891,22 +9743,22 @@
           "payload": {
             "scenario": "surge_3x"
           },
-          "previous_hash": "203b9e60a32bb8796328222cb0e77f0e889921f1bb10d241e7eea79e4f504d33",
-          "event_hash": "1907af47e387d8bb7038f918c79073d352c5cefdd0c4b83e0685fff6eb681f6f"
+          "previous_hash": "cc4dbb32aa4e3abeea55f70963c2eaf1d28a40b27bdda1b8df2f6a4af491975d",
+          "event_hash": "203c4f7eb81d39f694691e0d45bfcf6a163b393a9aecb43e404dae48d958a226"
         },
         {
           "sequence": 5,
-          "event_id": "EVT-7a5529d4f0fe",
+          "event_id": "EVT-2a66c9b85387",
           "patient_id": null,
           "created_at": "2026-08-22T10:42:00+05:30",
           "actor": "system_fixture",
           "event_type": "demo_reset",
           "payload": {
-            "patients": 12,
+            "patients": 20,
             "scenario": "baseline"
           },
           "previous_hash": null,
-          "event_hash": "203b9e60a32bb8796328222cb0e77f0e889921f1bb10d241e7eea79e4f504d33"
+          "event_hash": "cc4dbb32aa4e3abeea55f70963c2eaf1d28a40b27bdda1b8df2f6a4af491975d"
         }
       ]
     }

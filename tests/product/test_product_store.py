@@ -18,7 +18,7 @@ class ProductStoreTests(unittest.TestCase):
 
     def test_board_exposes_required_product_states(self) -> None:
         state = self.store.state()
-        self.assertEqual(len(state["patients"]), 12)
+        self.assertEqual(len(state["patients"]), 20)
         self.assertIn("capacity_conflicts", state["summary"])
         self.assertTrue(any(item["recommendation"]["uncertainty"] for item in state["patients"]))
         self.assertTrue(all("action_window" in item["recommendation"] for item in state["patients"]))
@@ -68,7 +68,7 @@ class ProductStoreTests(unittest.TestCase):
         source["provenance"]["source"] = ProvenanceSource.MANUAL.value
         created = self.store.add_manual_patient(PatientState.model_validate(source))
         self.assertEqual(created["patient_id"], "P-99001")
-        self.assertEqual(created["queue_position"], 13)
+        self.assertEqual(created["queue_position"], 21)
         self.assertTrue(created["recommendation"]["recommendation_id"])
         self.assertEqual(self.store.audit(patient_id="P-99001")[0]["event_type"], "manual_intake_created")
 
