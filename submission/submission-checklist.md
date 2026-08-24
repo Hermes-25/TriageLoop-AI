@@ -2,12 +2,12 @@
 
 ## Required by official materials
 
-- [x] Detailed business proposal prepared and exported to PDF; executive review remains below.
+- [x] Final 11-slide business proposal (`Zeta_TriageloopAI.pdf`) prepared, visually verified and staged.
 - [x] Working prototype runs from the repository instructions.
 - [x] Public GitHub repository contains source, dependencies and configuration: <https://github.com/Hermes-25/TriageLoop-AI>.
 - [x] README explains approach, architecture, implementation, features and execution.
 - [x] Prototype demo video is publicly downloadable without access requests from the `v1.0.0` GitHub release.
-- [x] Pitch presentation opens correctly and uses verified results only.
+- [x] Final business-proposal presentation opens correctly and uses verified results only.
 
 ## Claim-control gate
 

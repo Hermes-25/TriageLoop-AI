@@ -24,7 +24,7 @@ The complete sequence was reviewed through a nine-frame contact sheet plus dedic
 
 ## Submission artifacts
 
-The 18-page proposal, 19-slide pitch, editable source formats, speaker notes, product screenshots, MP4, transcript and evidence artifacts are staged. SHA-256 values for the decisive outputs are recorded in `submission/release-manifest.sha256`.
+The approved 11-slide business proposal, 36-page technical monograph, product screenshots, MP4, transcript and evidence artifacts are staged. They supersede the earlier proposal/pitch/paper exports; SHA-256 values for the authoritative outputs are recorded in `submission/release-manifest.sha256`.
 
 ## External gates
 

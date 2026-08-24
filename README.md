@@ -20,8 +20,8 @@
 <p align="center">
   <a href="https://triageloop-ai.vercel.app/board"><strong>Open the live prototype</strong></a>
   · <a href="submission/video/TriageLoop_Prototype_Demo.mp4">Watch the 2:05 demo</a>
-  · <a href="submission/TriageLoop_Technical_Working_Paper.pdf">Read the technical paper</a>
-  · <a href="submission/TriageLoop_Accenture_Round2_Pitch.pdf">View the pitch</a>
+  · <a href="submission/TriageLoop_Technical_Working_Paper_Abhishek_Das.pdf">Read the technical paper</a>
+  · <a href="submission/Zeta_TriageloopAI.pdf">View the business proposal</a>
   · <a href="https://github.com/Hermes-25/TriageLoop-AI/releases/tag/v1.0.0">Download the release</a>
 </p>
 
@@ -287,7 +287,7 @@ Start according to your role:
 
 | You are… | Begin here |
 |---|---|
-| A competition evaluator | [Live prototype](https://triageloop-ai.vercel.app/board) → [demo video](submission/video/TriageLoop_Prototype_Demo.mp4) → [technical paper](submission/TriageLoop_Technical_Working_Paper.pdf) |
+| A competition evaluator | [Live prototype](https://triageloop-ai.vercel.app/board) → [business proposal](submission/Zeta_TriageloopAI.pdf) → [demo video](submission/video/TriageLoop_Prototype_Demo.mp4) → [technical paper](submission/TriageLoop_Technical_Working_Paper_Abhishek_Das.pdf) |
 | Non-technical | [Docker for beginners](docs/docker-for-beginners.md) |
 | A developer | [API guide](services/api/README.md) and [web guide](apps/web/README.md) |
 | An ML researcher | [Evaluation protocol](docs/evaluation-protocol.md), [model card](docs/model-card.md) and [experiment report](docs/tl-02-experiment-report.md) |
@@ -298,9 +298,8 @@ Start according to your role:
 
 | Deliverable | Editable source | Jury-ready artifact |
 |---|---|---|
-| Detailed business proposal | [DOCX](submission/TriageLoop_Detailed_Business_Proposal.docx) | [18-page PDF](submission/TriageLoop_Detailed_Business_Proposal.pdf) |
-| Pitch presentation | [PPTX](submission/TriageLoop_Accenture_Round2_Pitch.pptx) | [19-slide PDF](submission/TriageLoop_Accenture_Round2_Pitch.pdf) |
-| Technical working paper | [LaTeX](paper/main.tex) | [36-page PDF](submission/TriageLoop_Technical_Working_Paper.pdf) |
+| Business proposal / jury presentation | — | [11-slide final PDF](submission/Zeta_TriageloopAI.pdf) |
+| Technical working paper | [LaTeX](paper/main.tex) | [36-page final PDF](submission/TriageLoop_Technical_Working_Paper_Abhishek_Das.pdf) |
 | Prototype demonstration | [Storyboard](submission/demo-storyboard.md) | [2:05 captioned MP4](submission/video/TriageLoop_Prototype_Demo.mp4) |
 | Accessible narration | — | [Matching transcript](submission/video/TriageLoop_Prototype_Demo_transcript.md) |
 | Integrity and release gate | — | [SHA-256 manifest](submission/release-manifest.sha256) · [checklist](submission/submission-checklist.md) |
