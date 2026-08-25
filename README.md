@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://triageloop-ai.vercel.app/board"><strong>Open the live prototype</strong></a>
-  · <a href="submission/video/TriageLoop_Prototype_Demo.mp4">Watch the 2:05 demo</a>
+  · <a href="submission/video/Zeta_Prototype.mp4">Watch the final 4:43 prototype walkthrough</a>
   · <a href="submission/TriageLoop_Technical_Working_Paper_Abhishek_Das.pdf">Read the technical paper</a>
   · <a href="submission/Zeta_TriageloopAI.pdf">View the business proposal</a>
   · <a href="https://github.com/Hermes-25/TriageLoop-AI/releases/tag/v1.0.0">Download the release</a>
@@ -40,10 +40,10 @@ TriageLoop asks two separate questions:
 **Patient need becomes time. Time is tested against capacity. A clinician closes the loop.**
 
 <p align="center">
-  <a href="submission/video/TriageLoop_Prototype_Demo.mp4">
+  <a href="submission/video/Zeta_Prototype.mp4">
     <img src="submission/visuals/product-surfaces/01-live-board-corrected.png" width="92%" alt="TriageLoop Deadline Board showing a live patient queue, Action Windows, projected ETAs and Clinical Slack">
   </a><br>
-  <sub>Click the working-product capture to open the captioned 2:05 demonstration.</sub>
+  <sub>Click the working-product capture to open the final narrated 4:43 demonstration.</sub>
 </p>
 
 ## Why it is different
@@ -287,7 +287,7 @@ Start according to your role:
 
 | You are… | Begin here |
 |---|---|
-| A competition evaluator | [Live prototype](https://triageloop-ai.vercel.app/board) → [business proposal](submission/Zeta_TriageloopAI.pdf) → [demo video](submission/video/TriageLoop_Prototype_Demo.mp4) → [technical paper](submission/TriageLoop_Technical_Working_Paper_Abhishek_Das.pdf) |
+| A competition evaluator | [Live prototype](https://triageloop-ai.vercel.app/board) → [business proposal](submission/Zeta_TriageloopAI.pdf) → [final prototype video](submission/video/Zeta_Prototype.mp4) → [technical paper](submission/TriageLoop_Technical_Working_Paper_Abhishek_Das.pdf) |
 | Non-technical | [Docker for beginners](docs/docker-for-beginners.md) |
 | A developer | [API guide](services/api/README.md) and [web guide](apps/web/README.md) |
 | An ML researcher | [Evaluation protocol](docs/evaluation-protocol.md), [model card](docs/model-card.md) and [experiment report](docs/tl-02-experiment-report.md) |
@@ -300,8 +300,7 @@ Start according to your role:
 |---|---|---|
 | Business proposal / jury presentation | — | [11-slide final PDF](submission/Zeta_TriageloopAI.pdf) |
 | Technical working paper | [LaTeX](paper/main.tex) | [36-page final PDF](submission/TriageLoop_Technical_Working_Paper_Abhishek_Das.pdf) |
-| Prototype demonstration | [Storyboard](submission/demo-storyboard.md) | [2:05 captioned MP4](submission/video/TriageLoop_Prototype_Demo.mp4) |
-| Accessible narration | — | [Matching transcript](submission/video/TriageLoop_Prototype_Demo_transcript.md) |
+| Prototype demonstration | [Production storyboard](submission/demo-storyboard.md) | [Final 4:43 narrated MP4](submission/video/Zeta_Prototype.mp4) |
 | Integrity and release gate | — | [SHA-256 manifest](submission/release-manifest.sha256) · [checklist](submission/submission-checklist.md) |
 
 ### Rebuild the technical paper

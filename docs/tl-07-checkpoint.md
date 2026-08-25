@@ -10,19 +10,17 @@ Status: **Internal release candidate complete — waiting on executive/external 
 - Isolated production API/web rehearsal passed the complete jury journey.
 - Corrected P-0009 explanation was asserted in the live product.
 - Browser console and page-error counts were zero.
-- Captioned 2:05 H.264 MP4 produced from the working product.
-- Video title, NBO boundary and evenly spaced sequence frames visually inspected.
-- Matching accessible transcript added.
+- Final 4:43 narrated H.264 MP4 subsequently supplied and approved by Abhishek, superseding the earlier internal cut.
+- Final file metadata and SHA-256 integrity verified before publication.
 - 73/73 Python tests, TypeScript check and optimized production build passed again.
 - Public repository surface staged and scrubbed of secrets, caches, dependencies, raw data, temporary tooling and agent files.
-- 174 tracked files total approximately 19.7 MB; largest file is below 9 MB.
+- The final 16.1 MB video remains below GitHub's standard per-file limit; obsolete video and transcript artifacts are excluded.
 - Release archive produced with 219 ZIP entries, zero forbidden entries and all required artifacts present.
 - SHA-256 manifest verified for proposal, pitch, video and live-rehearsal evidence.
 
 ## Prepared outputs
 
-- `submission/video/TriageLoop_Prototype_Demo.mp4`
-- `submission/video/TriageLoop_Prototype_Demo_transcript.md`
+- `submission/video/Zeta_Prototype.mp4`
 - `submission/release-manifest.sha256`
 - `docs/tl-07-release-report.md`
 - `../TriageLoop_TL07_Release_Candidate_2026-08-22.zip`
@@ -38,4 +36,4 @@ Status: **Internal release candidate complete — waiting on executive/external 
 
 ## Executive decision required
 
-Provide the team name, campus name and desired GitHub repository name; confirm the captioned MP4 or request a human-voiceover pass; and reauthenticate GitHub. Docker installation/use must also be authorized on a suitable machine before publication.
+The historical blockers above were resolved during publication. The final narrated MP4 is now the authoritative video; portal submission and any alternate-host requirement remain human-controlled.

@@ -30,9 +30,9 @@
 ## Demo gate
 
 - [x] Reset -> deterioration -> negative Slack -> explanation -> override -> audit -> evidence is visible in the working prototype.
-- [x] Video text is readable at normal playback size; representative frames and the complete sequence were inspected.
+- [x] Final video metadata is valid at 2560 × 1440, 30 fps, H.264 with narrated audio; file integrity matches the approved source.
 - [x] No real patient data, notifications, credentials or unrelated tabs appear.
-- [x] Burned-in captions and a matching transcript are included.
+- [x] Final 4:43 narrated MP4 is staged under the team submission name and its release checksum is recorded.
 - [ ] Final file/link naming follows the active portal instructions.
 
 ## Final human approval

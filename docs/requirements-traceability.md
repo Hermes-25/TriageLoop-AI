@@ -40,7 +40,7 @@ Status: TL-07 repository publication and Docker verification are complete; final
 | DEL-02 | Working prototype | Live deadline board, patient inspector, baseline/surge, deterioration, decisions, evidence, resilience and audit routes implemented | 73-test suite, production build, live full-story and degraded-mode recovery verified | TL-04/TL-04.5/TL-05/TL-06.5/TL-07 |
 | DEL-03 | Pitch presentation | The final 11-slide business proposal doubles as the jury presentation, with product, safety architecture, evidence, economics and a governed pilot decision | 11-slide final PDF rendered and inspected; source footers and claim boundaries retained | TL-06/TL-07/final release |
 | DEL-04 | Public repository + README | Source, dependencies, configuration, execution, architecture, evidence and safety boundaries published at `Hermes-25/TriageLoop-AI` | 73 tests, type-check, production build and Docker Compose browser/restart/persistence/reset gates pass; public CI included | TL-06/TL-06.5/TL-07 |
-| DEL-05 | Prototype demo video | 2:05 captioned MP4 covers deterioration, NBO boundary, surge, override, audit and evidence; transcript included | 1440×900 H.264 file and representative frames inspected; published as a downloadable `v1.0.0` release asset | TL-07 |
+| DEL-05 | Prototype demo video | Final 4:43 narrated MP4 presents the working prototype and its clinical, operational, governance and evidence boundaries | 2560×1440, 30 fps H.264/128 kbps-audio metadata and SHA-256 verified; published as a downloadable `v1.0.0` release asset | TL-07/final release |
 
 ## Traceability release rule
 

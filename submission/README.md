@@ -7,8 +7,7 @@ Final approved artifacts (24 August 2026):
 - `Zeta_TriageloopAI.pdf` - final 11-slide business proposal and jury narrative.
 - `TriageLoop_Technical_Working_Paper_Abhishek_Das.pdf` - final 36-page technical monograph.
 - `demo-storyboard.md`
-- `video/TriageLoop_Prototype_Demo.mp4` - 2:05 captioned working-prototype walkthrough.
-- `video/TriageLoop_Prototype_Demo_transcript.md` - accessible transcript matching the burned-in captions.
+- `video/Zeta_Prototype.mp4` - final 4:43 narrated working-prototype walkthrough.
 - `architecture-and-evidence-visuals.md`
 - `visuals/` - export-ready operating-loop, safety, uniqueness, evidence and six working-product surface captures.
 - `submission-checklist.md`
@@ -18,4 +17,4 @@ The approved business proposal contains 11 widescreen slides and the approved te
 
 The code and product verification baseline is 73 passing tests plus a successful TypeScript check and optimized production build. The TL-07 isolated, Vercel and Docker deployments pass the complete reset-to-evidence workflow without browser or page errors. The Docker restart check also preserves the five-event audit stream and newest hash exactly before deterministic reset. The verified public repository is <https://github.com/Hermes-25/TriageLoop-AI>.
 
-The repository and bundled captioned MP4 are public. Versioned jury downloads are available from <https://github.com/Hermes-25/TriageLoop-AI/releases/tag/v1.0.0>. Team/campus identity fields, any portal-preferred alternate video host and the portal submission remain human-controlled completion gates.
+The repository and bundled final MP4 are public. Versioned jury downloads are available from <https://github.com/Hermes-25/TriageLoop-AI/releases/tag/v1.0.0>. Team/campus identity fields, any portal-preferred alternate video host and the portal submission remain human-controlled completion gates.

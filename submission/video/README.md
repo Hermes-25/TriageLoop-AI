@@ -1,12 +1,12 @@
 # TriageLoop Prototype Demo
 
-Release candidate: `TriageLoop_Prototype_Demo.mp4`
+Final submission video: `Zeta_Prototype.mp4`
 
-- Duration: 2 minutes 5 seconds
-- Frame size: 1440 × 900 (16:10)
-- Frame rate: 25 fps
-- Video codec: H.264 High Profile, 8-bit 4:2:0
-- Audio: none; the complete narrative is burned into the video as readable captions
+- Duration: 4 minutes 43 seconds
+- Frame size: 2560 × 1440 (16:9)
+- Frame rate: 30 fps
+- Video codec: H.264
+- Audio: narrated track, 128 kbps
 - Data boundary: deterministic pseudonymous synthetic demo only
 - Capture source: isolated production build, recorded from the working product
 
@@ -23,7 +23,6 @@ Release candidate: `TriageLoop_Prototype_Demo.mp4`
 
 ## QA record
 
-The full MP4 was sampled across nine evenly spaced points plus dedicated opening-title and NBO frames. Captions, controls and clinical boundaries were readable; no real patient data, credentials, notifications or unrelated applications were visible.
+Windows media metadata, file size and SHA-256 integrity were verified after copying the final file into the release tree. Abhishek supplied and approved this recording as the final submission video. Portal playback and any platform-specific naming rule remain final human checks.
 
-Before upload, rename the file only if the active portal specifies a team/campus convention. Do not add a repository or video URL to the proposal, pitch or README until the public links pass an incognito check.
-
+Before portal submission, recheck whether the active form specifies a different team/campus naming convention and confirm the public GitHub Release download in a signed-out browser.

@@ -1,6 +1,6 @@
 # TriageLoop Prototype Demo Storyboard
 
-Recommended cut: 4 minutes 30 seconds. Contingency cut: 2 minutes 30 seconds. Record at 1440x900 or 1920x1080 with browser zoom at 100%.
+Final delivered recording: `video/Zeta_Prototype.mp4` (**4:43**, 2560 × 1440, 30 fps, narrated). The timing tables below are retained as the production storyboard and claim-control guide; the approved final recording supersedes their provisional cut lengths.
 
 ## Full cut
 
